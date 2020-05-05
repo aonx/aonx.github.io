@@ -57,6 +57,9 @@
     footer .nav-link:not(.active):not(.disabled):not(:hover) {
     opacity: 1;
     }
+    .left-sidebar .card, #connect-now iframe {
+      min-height: 680px;
+    }
   </style>
 </head>
 
@@ -65,109 +68,27 @@
     <div class="loading-animation"></div>
   </div>
 
-  <div class="navbar-container shadow-sm ">
-    <nav class="navbar navbar-expand-lg justify-content-between navbar-light border-bottom-0 bg-white"
-      data-sticky="top">
-      <div class="container">
-        <div class="col flex-fill px-0 d-flex justify-content-between">
-          <a class="navbar-brand mr-0 fade-page" href="index.html">
-            <img src="assets/img/mong/micare.png" class="logo" alt="Leap">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17V17C21 16.4477 20.5523 16 20 16H4C3.44772 16 3 16.4477 3 17V17ZM3 12C3 12.5523 3.44772 13 4 13H20C20.5523 13 21 12.5523 21 12V12C21 11.4477 20.5523 11 20 11H4C3.44772 11 3 11.4477 3 12V12ZM4 6C3.44772 6 3 6.44772 3 7V7C3 7.55228 3.44772 8 4 8H20C20.5523 8 21 7.55228 21 7V7C21 6.44772 20.5523 6 20 6H4Z"
-                fill="#212529" />
-            </svg>
-
-          </button>
-        </div>
-        <div class="collapse navbar-collapse col px-0 px-lg-2 flex-fill">
-          <div class="py-2 py-lg-0">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown mx-2">
-                <a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
-                  aria-expanded="false" aria-haspopup="true">Home</a>
-
-              </li>
-              <li class="nav-item dropdown mx-2">
-                <a href="#footer" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
-                  aria-expanded="false" aria-haspopup="true">About</a>
-
-              </li>
-              <li class="nav-item dropdown mx-2">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
-                  aria-expanded="false" aria-haspopup="true">Explore</a>
-              </li>
-             
-
-            </ul>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end col flex-fill px-0"><a href="https://demo.mi.team/"
-            class="btn btn-primary ml-lg-3">Login</a>
-
-        </div>
-      </div>
-    </nav>
-  </div>
 
   <section data-overlay="" class="pt-2">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mb-4">
-        <div class="col-md-3 col-lg-3 p-0">
-          <div class="sticky-top sticky-10">
-            <div class="card card-body justify-content-between bg-primary-alt p-2">
+        <div class="col-md-3 col-lg-3 p-0 left-sidebar">
+          <div class="sticky-top">
+            <div class="card card-body justify-content-between text-center bg-primary-alt p-2">
+              <a class="navbar-brand mr-0 mb-1 text-center" href="index.html">
+                <img src="assets/img/mong/micare.png" class="logo" alt="Leap">
+              </a>
               <img src="assets/img/mong/sachin.jpg" alt="Image" class="rounded">
 
-              <h2 class="h5 mt-3 mb-1">Available Timings</h2>
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <p><strong>Mon:</strong> 9:30 am - 3:00 pm </p>
-                </li>
-                <li>
-                  <p><strong>Wed:</strong> 10:30 am - 3:00 pm </p>
-                </li>
-                <li>
-                  <p><strong>Fri:</strong> 9:30 am - 6:00 pm </p>
-                </li>
-              </ul>
+              <h2 class="h4 mt-3 mb-1">Dr. Sachin</h2>
+              <h6 class="text-black-50 mb-1">Consultant Physician</h6>
+              <h6 class="text-black-50">MBBS , MD</h6>
+              
 
-              <!-- <a href="#" class="btn  px-2 my-2">
-
-              <svg  width="24px" height="24px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 512.006 512.006" style="enable-background:new 0 0 512.006 512.006;" xml:space="preserve">
-              <g>
-              <g>
-              <g>
-              <path d="M502.05,407.127l-56.761-37.844L394.83,335.65c-9.738-6.479-22.825-4.355-30.014,4.873l-31.223,40.139
-              c-6.707,8.71-18.772,11.213-28.39,5.888c-21.186-11.785-46.239-22.881-101.517-78.23c-55.278-55.349-66.445-80.331-78.23-101.517
-              c-5.325-9.618-2.822-21.683,5.888-28.389l40.139-31.223c9.227-7.188,11.352-20.275,4.873-30.014l-32.6-48.905L104.879,9.956
-              C98.262,0.03,85.016-2.95,74.786,3.185L29.95,30.083C17.833,37.222,8.926,48.75,5.074,62.277
-              C-7.187,106.98-9.659,205.593,148.381,363.633s256.644,155.56,301.347,143.298c13.527-3.851,25.055-12.758,32.194-24.876
-              l26.898-44.835C514.956,426.989,511.976,413.744,502.05,407.127z"/>
-              <path d="M291.309,79.447c82.842,0.092,149.977,67.226,150.069,150.069c0,4.875,3.952,8.828,8.828,8.828
-              c4.875,0,8.828-3.952,8.828-8.828c-0.102-92.589-75.135-167.622-167.724-167.724c-4.875,0-8.828,3.952-8.828,8.828
-              C282.481,75.494,286.433,79.447,291.309,79.447z"/>
-              <path d="M291.309,132.412c53.603,0.063,97.04,43.501,97.103,97.103c0,4.875,3.952,8.828,8.828,8.828
-              c4.875,0,8.828-3.952,8.828-8.828c-0.073-63.349-51.409-114.686-114.759-114.759c-4.875,0-8.828,3.952-8.828,8.828
-              C282.481,128.46,286.433,132.412,291.309,132.412z"/>
-              <path d="M291.309,185.378c24.365,0.029,44.109,19.773,44.138,44.138c0,4.875,3.952,8.828,8.828,8.828
-              c4.875,0,8.828-3.952,8.828-8.828c-0.039-34.111-27.682-61.754-61.793-61.793c-4.875,0-8.828,3.952-8.828,8.828
-              C282.481,181.426,286.433,185.378,291.309,185.378z"/>
-              </g>
-              </g>
-              </g>
-            
-              </svg>
-              <span>Profile</span>
-            </a> -->
-
-              <ul class="nav flex-column my-2">
-                <li class="nav-item">
+              <ul class="nav flex-row flex-md-column my-2">
+                <li class="nav-item col-6 col-md-12">
                   <a href="#profile" id="profile-tab" data-toggle="tab" aria-controls="profile" role="tab"
-                    aria-selected="false" class="p-2 my-1 nav-link btn active">
+                    aria-selected="false" class="p-2 my-md-1 my-0 nav-link btn active">
                     <svg width="24px" height="24px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.006 512.006"
                       style="enable-background:new 0 0 512.006 512.006;" xml:space="preserve">
@@ -185,7 +106,7 @@
                     </svg>
                     <span>Profile</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-6 col-md-12">
                   <a href="#connect-now" id="connect-now-tab" data-toggle="tab" aria-controls="connect-now" role="tab"
                     aria-selected="false" class=" btn p-2 nav-link btn">
                     <svg class="mr-1" id="Capa_1" enable-background="new 0 0 512 512" height="22" viewBox="0 0 512 512" width="22" xmlns="http://www.w3.org/2000/svg"><g><path d="m460.747 439.163c75.489-87.071 66.225-218.376-18.944-294.583 43.746 153.294-71.93 306.42-231.303 306.42-3.068 0 15.448.108-57.484-.342 39.889 39.703 93.017 61.342 148.48 61.342.144 0 195.446-.999 195.561-1 13.333-.064 19.975-16.29 10.464-25.677z"></path><path d="m210.5 421c116.064 0 210.489-94.43 210.489-210.5s-94.424-210.5-210.489-210.5-210.488 94.43-210.488 210.5c0 51.099 18.088 99.427 51.237 137.663l-46.774 46.16c-9.48 9.357-2.913 25.612 10.465 25.677.103.001 195.458 1 195.56 1zm-89.495-285h179.99c8.284 0 14.999 6.716 14.999 15s-6.715 15-14.999 15h-179.99c-8.284 0-14.999-6.716-14.999-15s6.716-15 14.999-15zm0 60h179.99c8.284 0 14.999 6.716 14.999 15s-6.715 15-14.999 15h-179.99c-8.284 0-14.999-6.716-14.999-15s6.716-15 14.999-15zm-14.999 75c0-8.284 6.715-15 14.999-15h179.99c8.284 0 14.999 6.716 14.999 15s-6.715 15-14.999 15h-179.99c-8.283 0-14.999-6.716-14.999-15z"></path></g></svg>
@@ -199,15 +120,12 @@
           </div>
         </div>
         <div class="col-md-9 col-lg-9">
-          <div class="card card-body border-0 pr-0 pt-2">
+          <div class="card card-body border-0 px-1 px-md-3 pt-2">
             <div class="tab-content" data-aos="fade-up">
               <!-- tab1-content starts here -->
               <div id="profile" class="tab-pane fade show active" role="tabpanel" aria-labelledby="profile-tab">
-                <h3 class="h1 mb-0 text-primary">Dr. Sachin</h3>
-                <h4 class="h6 mb-1 text-black-50">Consultant Physician</h4>
-                <h4 class="h6 text-black-50">MBBS , MD</h4>
-                <hr>
-                <h2 class="h5 mb-1">Profile</h2>
+                
+                <h2 class="h3 mb-1">Profile</h2>
                 <p>Dr. Sachin working as Consultant Physician in Dept of Internal Medicine in ASTER CMI Hospital, with over 10 years of experience and his field of interest are Diabetology, Thyroid disorders, Infectious diseases and Cardiology. He is a guest speaker for many diabetes and hypertension conferences. He has trained many general practitioners in the management of diabetes, thyroid disease and hypertension management in adults. He has done Diploma in Diabetes ( Boston) and Thyroid disorders fellowship ( American Thyroid Assosciation). He has presented multiple papers in both state and national conferences and indexed journals. He is a visiting consultant for middle east countries. He has served as Assistant Professor in Medical Colleges. He has been a principal investigator for many integrated clinical trial projects. He has been associated with MNC's of Manyata Tech Park for Corporate HeathChecks. He believes in the concept of medical care with a preventive and holistic approach.</p>
                 <hr class="mb-0">
                 <div class="row border-bottom py-4">
@@ -276,8 +194,7 @@
 
               <!-- tab1-content starts here -->
               <div id="connect-now" class="rounded-2 tab-pane fade " role="tabpanel" aria-labelledby="connect-now-tab">
-                <iframe class="border" src="https://demo.mi.team/group/my-test-channel?layout=embedded" height="600px"
-                  width="100%">
+                <iframe class="border" src="https://demo.mi.team/group/my-test-channel?layout=embedded" height="600px" width="100%">
                 </iframe>
               </div>
             </div>
