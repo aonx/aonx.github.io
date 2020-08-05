@@ -40,28 +40,8 @@
     html {
       scroll-behavior: smooth;
     }
-
-    .sticky-top.sticky-10 {
-      top: 7rem;
-    }
-
-    /* css added for iframe */
-    #connect-now>iframe {
-      /* border:none !important; */
-      border-radius: 0.625rem;
-    }
-
-    .nav-link.btn.active {
-      fill: #fff
-    }
     footer .nav-link:not(.active):not(.disabled):not(:hover) {
     opacity: 1;
-    }
-    .left-sidebar .card, #connect-now iframe {
-      min-height: 680px;
-    }
-    .doctors-table tr {
-      cursor: pointer;
     }
   </style>
 </head>
@@ -71,170 +51,153 @@
     <div class="loading-animation"></div>
   </div>
 
+  <div class="navbar-container shadow-sm ">
+    <nav class="navbar navbar-expand-lg justify-content-between navbar-light border-bottom-0 bg-white"
+      data-sticky="top">
+      <div class="container">
+        <div class="col flex-fill px-0 d-flex justify-content-between">
+          <a class="navbar-brand mr-0 fade-page" href="index.html">
+            <img src="assets/img/mong/micare.png" class="logo" alt="Leap">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17V17C21 16.4477 20.5523 16 20 16H4C3.44772 16 3 16.4477 3 17V17ZM3 12C3 12.5523 3.44772 13 4 13H20C20.5523 13 21 12.5523 21 12V12C21 11.4477 20.5523 11 20 11H4C3.44772 11 3 11.4477 3 12V12ZM4 6C3.44772 6 3 6.44772 3 7V7C3 7.55228 3.44772 8 4 8H20C20.5523 8 21 7.55228 21 7V7C21 6.44772 20.5523 6 20 6H4Z"
+                fill="#212529" />
+            </svg>
 
-  <section data-overlay="" class="pt-2">
-    <div class="container-fluid">
-      <div class="row mb-4">
-        <div class="col-md-3 col-lg-3 p-0 left-sidebar">
-          <div class="sticky-top">
-            <div class="card card-body text-center bg-primary-alt p-2">
-              <a class="navbar-brand mr-0 mb-1 text-center" href="index.html">
-                <img src="assets/img/mong/micare.png" class="logo" alt="Leap">
-              </a>
-              <img src="assets/img/mong/geri-care-hos.jpg" alt="Image" class="rounded w-100">
+          </button>
+        </div>
+        <div class="collapse navbar-collapse col px-0 px-lg-2 flex-fill">
+          <div class="py-2 py-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown mx-2">
+                <a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
+                  aria-expanded="false" aria-haspopup="true">Home</a>
 
-              <h2 class="h4 mt-3 mb-1">Geri Care</h2>
-              <h6 class="text-black-50 mb-0">Adyar, Chennai - 600020</h6>
-              
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a href="features.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
+                  aria-expanded="false" aria-haspopup="true">Features</a>
 
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a href="pricing.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid"
+                  aria-expanded="false" aria-haspopup="true">Pricing</a>
 
-              <ul class="nav flex-row flex-md-column my-2">
-                <li class="nav-item col-6 col-md-12">
-                  <a href="#profile" id="profile-tab" data-toggle="tab" aria-controls="profile" role="tab"
-                    aria-selected="false" class="p-2 my-md-1 my-0 nav-link btn active">
-                    <svg class="mr-1" width="22" height="22" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m105.046 168.773h-105.046v309.512h105.046zm-35.642 202.569h-33.762v-30h33.762zm0-67.523h-33.762v-30h33.762zm-33.762-67.523v-30h33.762v30z"/><path d="m406.954 478.286h105.046v-309.513h-105.046zm35.643-271.99h33.761v30h-33.761zm0 67.523h33.761v30h-33.761zm33.76 67.523v30h-33.761v-30z"/><path d="m203.477 438.865h37.523v39.421h-37.523z"/><path d="m271 438.865h37.522v39.421h-37.522z"/><path d="m135.046 478.286h38.431v-69.421h165.045v69.421h38.432v-444.572h-241.908zm137.835-106.944h-33.762v-30h33.762zm0-67.523h-33.762v-30h33.762zm0-67.523h-33.762v-30h33.762zm67.522 135.046h-33.761v-30h33.761zm0-67.523h-33.761v-30h33.761zm0-67.523h-33.761v-30h33.761zm-135.045-131.244h35.642v-35.642h30v35.642h35.643v30h-35.643v35.643h-30v-35.643h-35.642zm-33.762 101.244h33.762v30h-33.762zm0 67.523h33.762v30h-33.762zm0 67.523h33.762v30h-33.762z"/></g></svg>
-                    <span>Profile</span></a>
-                </li>
-                <li class="nav-item col-6 col-md-12">
-                  <a href="#connect-now" id="connect-now-tab" data-toggle="tab" aria-controls="connect-now" role="tab"
-                    aria-selected="false" class=" btn p-2 nav-link btn">
-                    <svg class="mr-1" width="22" height="22"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 500.004 500.004" style="enable-background:new 0 0 500.004 500.004;" xml:space="preserve">
-                 <g>
-                   <g>
-                     <path d="M250,0c-53.876,0-97.696,43.832-97.696,97.708v50.62c0,53.88,43.82,97.712,97.696,97.712
-                       c53.88,0,97.696-43.832,97.696-97.712v-50.62C347.697,43.832,303.88,0,250,0z"/>
-                   </g>
-                 </g>
-                 <g>
-                   <g>
-                     <path d="M465.456,373.364c-31.284-53.312-81.288-92.836-140.8-111.292c-1.38-0.428-2.872-0.064-3.9,0.952
-                       c-27.684,27.296-62.084,48.592-70.684,53.736c-9.18-5.868-47.848-31.072-70.836-53.736c-1.024-1.016-2.528-1.38-3.9-0.952
-                       c-59.52,18.46-109.52,57.984-140.792,111.296c-0.716,1.22-0.716,2.736,0,3.956c44.408,75.672,126.964,122.68,215.452,122.68
-                       c88.492,0,171.052-47.008,215.46-122.68C466.176,376.1,466.176,374.584,465.456,373.364z M382.872,402.508
-                       c0,2.156-2.052,3.804-4.204,3.804h-26.46c-2.156,0-4.508,1.852-4.508,4.012v27.364c0,2.152-1.152,3.796-3.308,3.796h-23.764
-                       c-2.156,0-4.188-1.644-4.188-3.796v-27.364c-0.008-2.156-1.48-4.012-3.636-4.012h-27.6c-2.156,0-3.94-1.652-3.94-3.804v-23.56
-                       c0-2.156,1.784-3.896,3.94-3.896h27.6c2.156,0,3.628-1.76,3.628-3.92v-27.396c0-2.156,2.032-3.856,4.188-3.856h23.508
-                       c2.152,0,3.568,1.7,3.568,3.856v27.476c0,2.16,2.088,3.836,4.248,3.836h26.724c2.152,0,4.204,1.824,4.204,3.98V402.508z"/>
-                   </g>
-                 </g>
-                 
-                 </svg>
-                    <span>Doctors</span>
-                  </a>
-                </li>
+              </li>
+             
 
-              </ul>
-
-            </div>
+            </ul>
           </div>
         </div>
-        <div class="col-md-9 col-lg-9">
-          <div class="card card-body border-0 px-1 px-md-3 pt-2">
-            <div class="tab-content" data-aos="fade-up">
-              <!-- tab1-content starts here -->
-              <div id="profile" class="tab-pane fade show active" role="tabpanel" aria-labelledby="profile-tab">
-                
-                <h2 class="h3 mb-1">Profile</h2>
-                <p>Geri Homecare was incepted by a team of qualified and compassionate Geriatricians, with more than three decades of experience. We are pioneers in bringing distinct and dedicated health care services of global standards within the confines of your own home. With the same kind of warmth and care that you would provide, we serve the elders in your home with utmost respect and compassion. </p>
-                <p>Our team is defined by the reliability we earned from our clients through our skills, our distinct educational qualifications, and superior services which are compassionate, friendly and reliable. We have invested our experience and acumen to ensure quality and reliable services continuously, to the elders, who require a positive mindset and support.</p>
-                <hr class="mb-0">
-                <div class="row border-bottom py-4">
-                  <div class="col-md-3">
-                    <h2 class="h6 mt-0">Hospital Address</h2>
-                  </div>
-                  <div class="col-md-6">
-                    <p class="mb-0">21, 1st Avenue, Indira Nagar,<br>
-                        Adyar, Chennai - 600020</p>
-                  </div>
-                  <div class="col-md-3">
-                    <p><strong> Phone:</strong><br> +91 9944459444 </p>
-                  </div>
+        <div class="collapse navbar-collapse justify-content-end col flex-fill px-0"><a href="https://in.mi.care/"
+          class="btn btn-primary ml-lg-3">Login</a>
+
+      </div>
+      </div>
+    </nav>
+  </div>
+  <section class="bg-lightgrey">
+    <div class="container">
+      <div class="row justify-content-center text-justify">
+        <div class="col-md-9">
+          <h1>Do Not Sell My Personal Information</h1>
+          <hr>
+          <h5>Please note:</h5>
+          <p>Mongrov and its affiliates do not sell their customers’ personal information to third parties.</p>
+          <p>
+            Nonetheless, California consumers have the right to request that Mongrov and its affiliates not sell their
+            personal information to third parties should Mongrov decide in the future to sell personal information to
+            third
+            parties. To exercise this right, please fill out the form below. Mongrov will maintain your request on file.
+
+            California consumers can request that Mongrov and its affiliates not sell their personal information in
+            accordance with the California Consumer Privacy Act of 2018 ("CCPA"). In order to request that Mongrov and
+            its
+            affiliates not sell your personal information pursuant to the CCPA, please provide us with the following
+            information and check the Submit box below. Any personal information submitted in connection with your
+            request will be used solely for the purposes of complying with your request. All requests to opt out of the
+            sale of personal information must be made using this online form. Mongrov may require proof of authorization
+            when a California consumer uses an authorized agent to exercise this right. For more information, please
+            visit www.mongrov.com/privacy to locate the privacy policy applicable to your Mongrov service or product.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="bg-primary-alt col-xl-9 col-md-9 card card-body mt-4">
+
+          <form action="https://formspree.io/hello@mongrov.com" method="POST">
+            <input type="hidden" class="form-control" name="Subject" placeholder="" value="Do Not Sell My Personal Information from mi.care" required="">
+            <div class="row">
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Firstname" placeholder="First Name" required="">
                 </div>
-                <div class="row border-bottom py-4">
-                  <div class="col-md-3">
-                    <h2 class="h6 mt-0">Our Services</h2>
-                  </div>
-                  <div class="col-md-9">
-                    <ul class="pl-2">
-                        <li>Geriatric Assessment Counselling</li>
-                        <li>Physiotherapy</li>
-                        <li>Medicine Delivery</li>
-                        <li>Home Blood Collection</li>
-                        <li>Attender Assistance</li>
-                        <li>Lab Test</li>
-                        <li>Vaccination</li>
-                        <li>Medical Devices</li>
-                    </ul>
-                  </div>
-
-                </div>
-
-
               </div>
-              <!-- tab1-content ends here -->
-
-              <!-- tab1-content starts here -->
-              <div id="connect-now" class="rounded-2 tab-pane fade " role="tabpanel" aria-labelledby="connect-now-tab">
-                <h2 class="h3 mb-3">Our medical professionals</h2>
-                <div class="row mb-3">
-                  <div class="col-12">
-                    <table class="table table-bordered table-hover doctors-table">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Name</th>
-                          <th scope="col">Designation</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr data-href="kvasanth.html">
-                          
-                          <th scope="row">1</th>
-                          <td>Dr K.Vasanth,<span class="text-secondary text-small"> MD (Geriatrics)</span></td>
-                          <td>Medical Director, Consultant Geriatrician</td>
-                          </a>
-                        </tr>
-                        <tr data-href="snagajothi.html">
-                          <th scope="row">2</th>
-                          <td>Dr S.Nagajothi</td>
-                          <td>Consultant - Physician</td>
-                        </tr>
-                        <tr data-href="nlakshmipathyramesh.html">
-                          <th scope="row">3</th>
-                          <td>Dr N.Lakshmipathy Ramesh,<span class="text-secondary text-small"> M.D (Geriatrics)</span></td>
-                          <td>Founder & Director</td>
-                        </tr>
-                        <tr data-href="vsrinivas.html">
-                          <th scope="row">4</th>
-                          <td>Dr V.Srinivas,<span class="text-secondary text-small"> MD, MRCP (UK), DIP.Geriatric Medicine (UK)</span></td>
-                          <td>Founder & Director</td>
-                        </tr>
-                        <tr data-href="csundar.html">
-                          <th scope="row">5</th>
-                          <td>Dr C.Sundar, <span class="text-secondary text-small">MD(Cardio)</span></td>
-                          <td>Senior Consultant - Cardiologist</td>
-                        </tr>
-                      
-                      </tbody>
-                    </table>
-                  </div>
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Lastname" placeholder="Last Name" required="">
                 </div>
-                
+              </div>
+
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="email" class="form-control" name="Email" placeholder="Email" required="">
+                </div>
+              </div>
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="number" class="form-control" name="Phone number" placeholder="Phone" required="">
+                </div>
+              </div>
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="Address" placeholder="Address" required="">
+                </div>
+              </div>
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="City" placeholder="City" required="">
+                </div>
+              </div>
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="State" placeholder="State" required="">
+                </div>
+              </div>
+
+              <div class="col-md-6 mt-2">
+                <div class="form-group">
+                  <input type="number" class="form-control" name="Contact-postalcode" placeholder="Postal Code" required="">
+                </div>
+              </div>
+
+              <div class="col-12 mt-2">
+                <textarea name="Message" rows="5" class="form-control" placeholder="Any other information that may help us to locate your personal information, including services used or purchased:" required=""></textarea>
+              </div>
+              <div class="col-12 mt-4">
+                      <input type="checkbox" required="">
+                      <span class="value">By checking this box, I hereby request that Mongrov and its affiliates not sell my
+                        personal information pursuant to the California Consumer Privacy Act of 2018.</span>
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary btn-loading mt-3 " data-loading-text="Sending">
+                  <span>Submit</span>
+                </button>
               </div>
             </div>
-            <!-- tab1-content ends here -->
-          </div>
-
+          </form>
         </div>
-
-
 
       </div>
 
     </div>
-    </div>
   </section>
+  
+  <!-- communicate naturally section ends here-->
   <footer class="pb-4 bg-primary text-light o-hidden" id="footer">
     <div class="container">
       <div class="row mb-5 mx-auto">
@@ -293,6 +256,7 @@
           <p>Telehealth is now mainstream. You need best-in-class efficiency and productivity to meet the virtual care delivery needs you have today, and the ones you’ll need tomorrow. At mi.care we provide you with a secured platform to connect Telehealth providers and patients directly. 
           </p>
           <p>Our goal is to provide with best in class collaboration platform and video conferencing solution to make Doctors provide high-quality health care remotely.</p>
+         
         </div>
        
       </div>
@@ -309,6 +273,7 @@
       </div>
     </div>
   </footer>
+
   <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up"
     data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
     <svg class="icon" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -382,18 +347,6 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-113300163-4');
-  </script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const rows = document.querySelectorAll("tr[data-href]");
-      rows.forEach(row => {
-        row.addEventListener("click", () => {
-          window.location.href = row.dataset.href;
-
-        });
-      });
-    });
   </script>
 
 </body>
