@@ -151,6 +151,20 @@ img.sideimg {
     animation: movingY 5s linear infinite;
 }
 
+/* Inner page styles */
+.inner-page .container {
+    width: 1140px;
+    margin: 0px auto;
+}
+.inner-page .header {
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e1e1;
+}
+body.inner-page {
+    color: #333333;
+}
+
 @keyframes movingY {
 	0% {
 		transform: translateY(0);
