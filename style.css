@@ -36,6 +36,7 @@ a:hover {
 }
 .main-content {
     color: #fff;
+    width: 100%;
 }
 .main-content h1 {
     font-size: 3em;
@@ -150,6 +151,9 @@ img.sideimg {
     -webkit-animation: movingY 8s linear infinite;
     animation: movingY 5s linear infinite;
 }
+header#header {
+    width: 100%;
+}
 
 /* Inner page styles */
 .inner-page .container {
@@ -216,9 +220,10 @@ body.inner-page {
 		display: block;
 	}
 	.form-group input.form-control {
-		width: 94%;
-		border-radius: 10px;
-	}
+        width: 96%;
+        border-radius: 10px;
+        padding-left: 4%;
+    }
 	.form-group button.submit-button {
 		width: 100%;
 		border-radius: 10px;
