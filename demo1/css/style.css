@@ -7869,7 +7869,7 @@ a.phone-link {
 .theme-orange .show > .btn-primary.dropdown-toggle:focus,
 .theme-orange .btn-primary.focus,
 .theme-orange .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255,0,0,.5);
+  box-shadow: 0 0 0 0.2rem rgba(162, 134, 246, 0.5);
 }
 
 .theme-orange .btn-primary:hover,
