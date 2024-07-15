@@ -2099,7 +2099,7 @@ a:hover .service-item-title {
 
 .project-list-listing a:hover .project-listing-title,
 .project-list-masonry a:hover .project-masonry-title {
-  color: #c0a800;
+  color: #a97e17;
 }
 
 .project-listing-detail {
@@ -2307,8 +2307,8 @@ a:hover .service-item-title {
 }
 
 .nav-white-orange.owl-theme .owl-nav [class*=owl-]:hover:not(.disabled) {
-  background: #c0a800;
-  border-color: #c0a800;
+  background: #a97e17;
+  border-color: #a97e17;
 }
 
 .nav-white-orange .arrow-top,
@@ -3006,7 +3006,7 @@ a:hover .zooming img {
   float: left;
   height: 2px;
   width: 3rem;
-  background: #c0a800;
+  background: #a97e17;
   overflow: hidden;
   transition: background .5s ease-in-out;
   position: relative;
@@ -3020,7 +3020,7 @@ a:hover .zooming img {
   position: absolute;
   left: 0;
   top: 0;
-  background: #c0a800;
+  background: #a97e17;
 }
 
 .horizontal-nav li.active:before {
@@ -3305,7 +3305,7 @@ a:hover .zooming img {
   margin: 0;
   padding: 0;
   background: transparent;
-  border: #c0a800 2px solid;
+  border: #a97e17 2px solid;
   width: 6.48148148vmin;
   height: 6.48148148vmin;
   min-width: 3rem;
@@ -3319,7 +3319,7 @@ a:hover .zooming img {
 }
 
 .btn-play:hover {
-  background: #c0a800;
+  background: #a97e17;
   text-decoration: none;
 }
 
@@ -3350,7 +3350,7 @@ a.btn-play i {
 }
 
 .btn-play-lg:hover {
-  border-color: #c0a800;
+  border-color: #a97e17;
 }
 
 .media-title {
@@ -3399,7 +3399,7 @@ a.btn-play i {
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: #c0a800;
+  background: #a97e17;
   transition: width .3s ease-in-out;
 }
 
@@ -5553,7 +5553,7 @@ a.minimal-item:hover {
 
 .services-flash .service-item:before {
   content: "";
-  background: #c0a800;
+  background: #a97e17;
   height: 5px;
   width: 0;
   position: absolute;
@@ -5989,7 +5989,7 @@ a:hover .project-metro-photo img {
 
 .article-list-flash .article-item-category,
 .article-list-flash .article-item-category a {
-  color: #c0a800;
+  color: #a97e17;
 }
 
 
@@ -6219,7 +6219,7 @@ a:hover .project-metro-photo img {
   margin: 0;
   cursor: pointer;
   font-size: 2.25rem;
-  color: #c0a800;
+  color: #a97e17;
 }
 
 .like-btn i {
@@ -6921,8 +6921,8 @@ a.page-link:hover {
 }
 
 .article-promo-item .btn-outline-light:hover {
-  background: #c0a800;
-  border-color: #c0a800;
+  background: #a97e17;
+  border-color: #a97e17;
   color: #ffffff;
 }
 
@@ -7849,7 +7849,7 @@ a.phone-link {
 .theme-orange .filter-location .active a,
 .theme-orange .nav-inline.text-black .active a,
 .theme-orange .nav-inline.text-black a:hover {
-  color: #c0a800 !important;
+  color: #a97e17 !important;
 }
 
 .theme-orange .nav-toggle-btn:hover .stick,
@@ -7857,11 +7857,11 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span:before,
 .theme-orange .owl-theme .owl-dots .owl-dot:hover span:before {
-  background-color: #c0a800;
+  background-color: #a97e17;
 }
 
 .theme-orange .bg-primary {
-  background-color: #c0a800 !important;
+  background-color: #a97e17 !important;
 }
 
 .theme-orange .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -7885,7 +7885,7 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span,
 .theme-orange .btn-outline-secondary:hover {
-  border-color: #c0a800;
+  border-color: #a97e17;
 }
 
 
