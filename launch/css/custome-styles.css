@@ -42,3 +42,30 @@
     left: 0;
     z-index: 9;
 }
+
+.horizontal-dailyuse-item {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    max-height: 380px;
+    aspect-ratio: 3 / 3;
+}
+
+.horizontal-service-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+.horizontal-service-text h4 {
+    font-size: 2.25rem;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.11111111;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.horizontal-service-text p {
+    color: #FFFFFF;
+}
