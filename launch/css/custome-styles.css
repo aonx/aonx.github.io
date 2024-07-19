@@ -1,10 +1,11 @@
 .brand-name img {
     margin-top: -25px;
+    margin-left: 20px;
 }
 .brand-text {
     font-size: 32px;
 }
-.horizontal-service-item-photo:after {
+.horizontal-dailyuse-item:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -25,7 +26,7 @@
 
 .amazing-features h3 {
     font-family: 'Karla', sans-serif;
-    font-size: 42px;
+    font-size: 6.66667vmin;
     text-align: center;
     letter-spacing: -2px;
 }
@@ -56,6 +57,7 @@
     bottom: 0;
     left: 0;
     padding: 20px;
+    z-index: 9;
 }
 .horizontal-service-text h4 {
     font-size: 2.25rem;
@@ -68,4 +70,37 @@
 }
 .horizontal-service-text p {
     color: #FFFFFF;
+}
+
+.sticky-menu-bg-sec .slide-container {
+    padding-top: 60px;
+}
+.secondary-menu {
+    color: #9a9a9a;
+}
+.secondary-menu a:first-child {
+    padding-left: 0;
+}
+.secondary-menu a {
+    color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.secondary-menu a:hover {
+    color: #835FF1;
+}
+
+@media only screen and (max-width:1400px) {
+    .sticky-menu-bg-sec .slide-container {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+.brand-name img {
+    margin-top: 5px;
+    margin-left: 0;
+}
 }
