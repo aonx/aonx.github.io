@@ -58,7 +58,11 @@
     left: 0;
     padding: 20px;
     z-index: 9;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 7, 7, 1) 100%);
 }
+
 .horizontal-service-text h4 {
     font-size: 2.25rem;
     font-family: 'Teko', sans-serif;
@@ -91,10 +95,27 @@
 .secondary-menu a:hover {
     color: #835FF1;
 }
+.terms-content h2 {
+    text-transform: none;
+    font-weight: 600 !important;
+    font-size: 38px;
+}
+
+hr {
+    border-top: 1px solid #584f76;
+}
+.ziva-contact .form-control-custom {
+    border: none;
+    border: #1a1527 1px solid;
+    padding: 12px;
+    color: #FFFFFF;
+    font-weight: normal;
+    background: #000;
+}
 
 @media only screen and (max-width:1400px) {
     .sticky-menu-bg-sec .slide-container {
-        padding-top: 120px;
+        padding-top: 20px;
     }
 }
 
@@ -103,4 +124,66 @@
     margin-top: 5px;
     margin-left: 0;
 }
+}
+
+
+
+
+/* Accordian Styles  */
+
+  #main #faq .card {
+    margin-bottom: 5px;
+    border: 0;
+}
+  
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #835ff1;
+    color: #fff;
+    padding: 10px;
+}
+  
+  #main #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+
+  #main #faq .card .card-body {
+    padding: 10px;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: #f1f1f1;
+    color: #000;
+}
+  
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  #main #faq .card .collapsing {
+    background: #f1ecff;
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    background: #f1ecff;
+    line-height: 30px;
+    color: #222;
 }

@@ -26,11 +26,11 @@
     <link href="css/custome-styles.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest"> -->
-    <link rel="icon" type="image/png" href="favicon/favicon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="icon" type="image/png" href="favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -42,7 +42,7 @@
         <header id="header" class="header header-fixed">
           <div class="container-fluid clearfix">
             <div class="brand">
-              <a href="#Home">
+              <a href="index.html#Home">
                 <div class="brand-name text-texture">
                   <img src="img/ziva-logo.svg" width="48">
                 </div>
@@ -80,15 +80,15 @@
                 <li><a href="#Home" data-text="Home">Home</a></li>
                 <li><a href="#Ring-Features" data-text="Ring Features">Ring Features</a></li>
                 <li><a href="#App-Features" data-text="App Features">App Features</a></li>
-                <li><a href="ziva-faq.html" data-text="FAQs">FAQs</a></li>
+                <li><a href="faq.html" data-text="FAQs">FAQs</a></li>
                 <li><a href="downloads/ziva-user-manual.pdf" target="_blank" data-text="User Manual">User Manual</a></li>
                 <li><a href="#Contacts" data-text="Contact">Contact</a></li>
               </ul>
             </div>
 
             <div class="secondary-menu">
-              <a href="#">Terms & Conditions</a> /
-              <a href="#">Privacy Policy</a>
+              <a href="terms.html">Terms & Conditions</a> /
+              <a href="privacy-policy.html">Privacy Policy</a>
             </div>
 
             <div class="menu-footer">
@@ -139,7 +139,7 @@
                 <div class="container">
                   <div class="row slide-content">
                     <div class="col-sm-4">
-                      <div class="slide-num num">01</div>
+                      <!-- <div class="slide-num num">01</div> -->
                       <h1 class="slide-title font-teko wow fadeInRight" data-wow-duration="1.2s"><span class="text-primary">Beautifully</span><br />crafted</h1>
                       <div class="slide-body wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.2s">
                         <h3 class="slide-title-sub font-teko">Aerospace titanium grade outer ring</h3>
@@ -163,7 +163,7 @@
             </div>
             <div class="slide-container">
               <div class="container">
-                <div class="slide-num num" style="margin-top: -100px;">02</div>
+                <!-- <div class="slide-num num" style="margin-top: -100px;">02</div> -->
                 <div class="media-title">
                   <div class="align-self-center">
                     <h2 class="slide-title font-teko mb-0">Designed for your Daily Use</h2>
@@ -189,7 +189,7 @@
                       <div class="horizontal-dailyuse-item">
                         <img src="img/battery.jpg" alt="" class="img-fluid" />
                         <div class="horizontal-service-text">
-                          <h4 class="">Looong battery life</h4>
+                          <h4 class="">Long battery life</h4>
                           <p>Upto 15 days for normal usage</p>
                         </div>
                       </div>
@@ -248,7 +248,7 @@
               <div class="container">
                 <div class="row slide-content">
                   <div class="col-sm-4">
-                    <div class="slide-num num">03</div>
+                    <!-- <div class="slide-num num">03</div> -->
                     <h1 class="slide-title font-teko wow fadeInRight" data-wow-duration="1.2s">Smart Ring <span class="text-primary"> Health App</span><br /></h1>
                     <div class="slide-body wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.2s">
                       <h3 class="slide-title-sub font-teko">Precision Data for Superior Wellness</h3>
@@ -263,7 +263,8 @@
                     </div>
                   </div>
                   <div class="col-sm-6 offset-sm-2">
-                    <img src="img/ziva-mobile-app-ring.png" class="img-fluid">
+                    <img src="img/ziva-mobile-app-ring.png" class="img-fluid d-sm-block d-none">
+                    <img src="img/phone-ring.png" class="img-fluid d-sm-none d-block">
                   </div>
                 </div>
                 
@@ -276,7 +277,7 @@
             </div>
             <div class="slide-container">
               <div class="container">
-                <div class="slide-num num" style="margin-top: -100px;">04</div>
+                <!-- <div class="slide-num num" style="margin-top: -100px;">04</div> -->
                 <div class="media-title">
                   <div class="align-self-center">
                     <h2 class="slide-title font-teko mb-0">Amazing Features</h2>
@@ -326,14 +327,35 @@
               <div class="container">
                 <div class="row slide-content">
                   <div class="col-sm-6">
-                    <div class="slide-num num">05</div>
-                    <h2 class="slide-title font-teko h1"><span class="text-primary">Start</span> Your Health Journey Today</h2>
-                    <a class="btn btn-primary mr-4" href="https://e8a6db-cb.myshopify.com/products/smart-ring">Shop Now <i class="icon ion-ios-arrow-right"></i></a>
-                    <div class="slide-body mt-5">
+                    <!-- <div class="slide-num num">05</div> -->
+                    <h2 class="slide-title font-teko h1"><span class="text-primary">Contact</span> Us</h2>
+                
+                    <div class="subsribe">
+                      <h3 class="slide-title font-teko h2 mt-5">Start Your Health Journey Today</h3>
+                      <form action="https://formspree.io/f/mrbzelrl" method="post" class="text-left ziva-contact">
+                        <div class="row">
+                          <div class="col-sm-5 mb30">
+                            <label class="label-custom">Name</label>
+                            <input type="text" class="form-control form-control-custom" name="Contact Name" placeholder="Your name" value="" required=""/>
+                          </div>
+                          <div class="col-sm-5 mb30">
+                            <label class="label-custom">Email</label>
+                            <input type="text" class="form-control form-control-custom" name="Contact Email" placeholder="Your Email Address" required=""/>
+                          </div>
+                          <div class="col-sm-10 mb30">
+                            <label class="label-custom">message</label>
+                            <textarea rows="4" cols="6" class="form-control form-control-custom" name="Message" placeholder="Write your message here" required=""></textarea>
+                            <div class="text-center"><button class="btn btn-primary btn-sm mt-3">send message</button></div>
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div>
+                    <!-- <div class="slide-body mt-5">
                      
                       <div class="slide-contact-mail"><a href="#" class="underline">hello@zivaone.com</a></div>
                       <div class="slide-contact-phone"><a href="tel:+1 (415) 890 3925 " class="phone-link">+1 (415) 890 3925 </a></div>
-                    </div>
+                    </div> -->
                   </div>
                   <div class="col-sm-6">
                     <img src="img/running.png" class="img-fluid">
