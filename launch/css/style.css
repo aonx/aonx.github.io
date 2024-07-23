@@ -7498,7 +7498,7 @@ a.page-link:hover {
 a.phone-link {
   color: inherit;
   text-decoration: none;
-  cursor: default;
+  cursor: pointer;
 }
 
 .social {
