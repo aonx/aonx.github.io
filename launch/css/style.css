@@ -923,7 +923,7 @@ input:focus {
 }
 
 .header-contacts {
-  padding-top: .5rem;
+  padding-top: 0;
   font-weight: bold;
 }
 
