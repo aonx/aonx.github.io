@@ -61,6 +61,7 @@
     width: 100%;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 7, 7, 1) 100%);
+    min-height: 138px;
 }
 
 .horizontal-service-text h4 {
@@ -123,6 +124,9 @@ hr {
 .brand-name img {
     margin-top: 5px;
     margin-left: 0;
+}
+.horizontal-service-text {
+    min-height: auto;
 }
 }
 
