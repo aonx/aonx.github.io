@@ -1608,7 +1608,7 @@ input:focus {
 }
 
 .brand .text-texture {
-  background-image: linear-gradient(to bottom, #ff7c00, #a79205);
+  background-image: linear-gradient(to bottom, #ff7c00, #ff3600);
   display: inline-block;
   vertical-align: middle;
   width: 2.75rem;
@@ -2099,7 +2099,7 @@ a:hover .service-item-title {
 
 .project-list-listing a:hover .project-listing-title,
 .project-list-masonry a:hover .project-masonry-title {
-  color: #a97e17;
+  color: #ed4c20;
 }
 
 .project-listing-detail {
@@ -2307,8 +2307,8 @@ a:hover .service-item-title {
 }
 
 .nav-white-orange.owl-theme .owl-nav [class*=owl-]:hover:not(.disabled) {
-  background: #a97e17;
-  border-color: #a97e17;
+  background: #ed4c20;
+  border-color: #ed4c20;
 }
 
 .nav-white-orange .arrow-top,
@@ -3006,7 +3006,7 @@ a:hover .zooming img {
   float: left;
   height: 2px;
   width: 3rem;
-  background: #a97e17;
+  background: #ed4c20;
   overflow: hidden;
   transition: background .5s ease-in-out;
   position: relative;
@@ -3020,7 +3020,7 @@ a:hover .zooming img {
   position: absolute;
   left: 0;
   top: 0;
-  background: #a97e17;
+  background: #ed4c20;
 }
 
 .horizontal-nav li.active:before {
@@ -3305,7 +3305,7 @@ a:hover .zooming img {
   margin: 0;
   padding: 0;
   background: transparent;
-  border: #a97e17 2px solid;
+  border: #ed4c20 2px solid;
   width: 6.48148148vmin;
   height: 6.48148148vmin;
   min-width: 3rem;
@@ -3319,7 +3319,7 @@ a:hover .zooming img {
 }
 
 .btn-play:hover {
-  background: #a97e17;
+  background: #ed4c20;
   text-decoration: none;
 }
 
@@ -3350,7 +3350,7 @@ a.btn-play i {
 }
 
 .btn-play-lg:hover {
-  border-color: #a97e17;
+  border-color: #ed4c20;
 }
 
 .media-title {
@@ -3399,7 +3399,7 @@ a.btn-play i {
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: #a97e17;
+  background: #ed4c20;
   transition: width .3s ease-in-out;
 }
 
@@ -5331,7 +5331,7 @@ a.minimal-item:hover {
 
 .h1-flash {
   margin-bottom: 7.40740741vmin;
-  background: linear-gradient(to bottom, #ff7c00, #a79205);
+  background: linear-gradient(to bottom, #ff7c00, #ff3600);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 9.25925926vmin;
@@ -5451,7 +5451,7 @@ a.minimal-item:hover {
   text-align: center;
   line-height: 4.75rem;
   font-size: 2.375rem;
-  color: #a79205;
+  color: #ff3600;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -5553,7 +5553,7 @@ a.minimal-item:hover {
 
 .services-flash .service-item:before {
   content: "";
-  background: #a97e17;
+  background: #ed4c20;
   height: 5px;
   width: 0;
   position: absolute;
@@ -5989,7 +5989,7 @@ a:hover .project-metro-photo img {
 
 .article-list-flash .article-item-category,
 .article-list-flash .article-item-category a {
-  color: #a97e17;
+  color: #ed4c20;
 }
 
 
@@ -6219,7 +6219,7 @@ a:hover .project-metro-photo img {
   margin: 0;
   cursor: pointer;
   font-size: 2.25rem;
-  color: #a97e17;
+  color: #ed4c20;
 }
 
 .like-btn i {
@@ -6921,8 +6921,8 @@ a.page-link:hover {
 }
 
 .article-promo-item .btn-outline-light:hover {
-  background: #a97e17;
-  border-color: #a97e17;
+  background: #ed4c20;
+  border-color: #ed4c20;
   color: #ffffff;
 }
 
@@ -7849,7 +7849,7 @@ a.phone-link {
 .theme-orange .filter-location .active a,
 .theme-orange .nav-inline.text-black .active a,
 .theme-orange .nav-inline.text-black a:hover {
-  color: #a97e17 !important;
+  color: #ed4c20 !important;
 }
 
 .theme-orange .nav-toggle-btn:hover .stick,
@@ -7857,11 +7857,11 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span:before,
 .theme-orange .owl-theme .owl-dots .owl-dot:hover span:before {
-  background-color: #a97e17;
+  background-color: #ed4c20;
 }
 
 .theme-orange .bg-primary {
-  background-color: #a97e17 !important;
+  background-color: #ed4c20 !important;
 }
 
 .theme-orange .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -7876,8 +7876,8 @@ a.phone-link {
 .theme-orange .btn-primary:not(:disabled):not(.disabled).active,
 .theme-orange .btn-primary:not(:disabled):not(.disabled):active,
 .theme-orange .show > .btn-primary.dropdown-toggle {
-  background-color: #a79205;
-  border-color: #a79205;
+  background-color: #ff3600;
+  border-color: #ff3600;
 }
 
 
@@ -7885,7 +7885,7 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span,
 .theme-orange .btn-outline-secondary:hover {
-  border-color: #a97e17;
+  border-color: #ed4c20;
 }
 
 
