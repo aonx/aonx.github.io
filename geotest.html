@@ -1,158 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Ziva - Coming Soon</title>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="assets/icomoon.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Redirection</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://nimble.li/jmolg54m">
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
 </head>
 
-
-<body>
-	
-	<div id="body-wrap">
-		<div class="row">
-			<div class="col-8">
-				<div class="container main">
-
-					<header id="header">
-						<div class="logo">
-							<img src="images/ziva-logo.svg" alt="logo">
-						</div>	
-					</header>
-
-					<div class="main-content">
-
-						<div class="page-title">
-
-							<h1>We are launching soon!</h1>
-
-							<div id="countdown-clock">
-								<div class="time">
-									<span class="days" id="days"></span>
-									<small>Days</small>
-								</div>
-								<div class="time">
-									<span class="hours" id="hours"></span>
-									<small>Hours</small>
-								</div>
-								<div class="time">
-									<span class="minutes" id="minutes"></span>
-									<small>Minutes</small>
-								</div>
-								<div class="time">
-									<span class="seconds"  id="seconds"></span>
-									<small>Seconds</small>
-								</div>
-							</div>
-						</div><!--page-title-->
-
-						<form id="form" action="https://formspree.io/f/xayrdejq" method="POST">
-
-							<p>Subscribe for updates</p>
-
-							<div class="form-group" >
-								<input type="email" class="form-control" placeholder="Your email address" name="Subscriber's email">
-								<button type="submit" class="submit-button"><span>Subscribe</span></button>
-							</div>
-
-							
-
-						</form>
-
-						
-
-					</div><!--main-content-->
-
-					<footer id="footer">
-
-
-						<div class="copyright">
-							<p>Copyright &copy; <a href="javascript:;">ZivaOne, Inc.</a> 2024.</p>
-							
-						</div>
-
-					</footer>
-
-				</div>
-			</div><!--col-8-->
-
-			<div class="col-4 right-cont">
-				<img src="images/phone-ring.png" alt="wallpaper" class="sideimg movingY">
-			</div>		
-		</div><!--row-->
-
-	</div><!--body-wrap-->
-
-
-<!-- Counter  -->
-
-<script>
-	const second = 1000,
-  minute = second * 60,
-  hour = minute * 60,
-  day = hour * 24;
-
-let countDown = new Date('July 29, 2024 10:00:00').getTime(),
-x = setInterval(function() {
-
-  let now = new Date().getTime(),
-	  distance = countDown - now;
-
-  document.getElementById('days').innerText = Math.floor(distance / (day)),
-	document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-	document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-	document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-  
-}, second)
-</script>
-
-
-<script>
-    /*
-The default country is US and the default site is google.com
-The code below is placed on the default site. The other site where you want to send visitors from the rest of the world is google.co.uk
-*/
-var defaultCountry = ‘US’;
-var defaultSite = ‘https://zivaone.com/geotest';
-var otherSite = ‘https://zivaone.com/launch2';
-fetch(‘https://ipapi.co/country/')
- .then(response => {
-   if (response.ok) {
-     return response.text();
-   } else {
-     throw new Error(‘HTTP Error ‘ + response.status);
-   }
- })
- .then(country => {
-   if (country == defaultCountry) {
-     // No action needed - already on the default site
-     console.log(‘Already on default site’);
-   } else {
-     // Redirect rest of the world
-     console.log(‘Redirecting to country specific website’);
-     window.location = otherSite;
-   }
- })
- .catch(function(error) {
-   // Network error
-   // Script blocked by browser extension
-   // 429 error (too many requests)
-   console.log(error);
- });
-</script>
-
-
-</body>
+  <!-- Body -->
+  <body>
+    <p style="text-align: center;margin-top: 260px;">
+    If you are not redirected automatically, follow this <a href="https://nimble.li/jmolg54m">link to the new path</a>.
+  </p>
+  </body>
 </html>
