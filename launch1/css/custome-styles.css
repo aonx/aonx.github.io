@@ -61,6 +61,7 @@
     width: 100%;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 7, 7, 1) 100%);
+    min-height: 138px;
 }
 
 .horizontal-service-text h4 {
@@ -113,15 +114,6 @@ hr {
     background: #000;
 }
 
-.ring-feature h3.font-teko {
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.ring-feature .stage-item-num {
-    font-family: 'Karla', sans-serif;
-}
-
 @media only screen and (max-width:1400px) {
     .sticky-menu-bg-sec .slide-container {
         padding-top: 20px;
@@ -132,6 +124,9 @@ hr {
 .brand-name img {
     margin-top: 5px;
     margin-left: 0;
+}
+.horizontal-service-text {
+    min-height: auto;
 }
 }
 
