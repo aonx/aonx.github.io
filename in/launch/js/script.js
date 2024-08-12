@@ -57,6 +57,15 @@
 		}
 	});
 
+	$('.menu-main a').on('click', function(event) {
+		if ($(window).width() <= 768) {
+			if ($('html').hasClass('body-menu-opened')) {
+				$('html').removeClass('body-menu-opened').addClass('body-menu-close');
+			}
+		}
+
+    });
+
 	$('.navbar-nav .dropdown').on({
 		mouseenter: function() {
 			$(this).find('.dropdown-menu').show();
