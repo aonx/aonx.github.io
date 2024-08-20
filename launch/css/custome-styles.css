@@ -48,8 +48,8 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    max-height: 380px;
-    aspect-ratio: 3 / 3;
+    /* max-height: 380px; */
+    aspect-ratio: 3 / 4;
 }
 
 .horizontal-service-text {
@@ -61,7 +61,7 @@
     width: 100%;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 7, 7, 1) 100%);
-    min-height: 138px;
+    min-height: 160px;
 }
 
 .horizontal-service-text h4 {
@@ -107,7 +107,7 @@ hr {
 }
 .ziva-contact .form-control-custom {
     border: none;
-    border: #1a1527 1px solid;
+    border: #6c6c6c 1px solid;
     padding: 12px;
     color: #FFFFFF;
     font-weight: normal;
