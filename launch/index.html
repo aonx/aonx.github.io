@@ -171,8 +171,8 @@
             </div>
           </div>
 
-          <div class="section pp-scrollable slide slide2 sticky-menu-bg-sec">
-            <div class="menu-bg-white">
+          <div class="section pp-scrollable slide slide2 sticky-menu-bg-sec slide-dark">
+            <div class="menu-bg-dark">
             </div>
             <div class="slide-container">
               <div class="container">
@@ -227,8 +227,8 @@
 
           
 
-          <div class="section pp-scrollable slide slide3 sticky-menu-bg-sec">
-            <div class="menu-bg-white">
+          <div class="section pp-scrollable slide slide3 sticky-menu-bg-sec slide-dark">
+            <div class="menu-bg-dark">
             </div>
             <div class="slide-container">
               <div class="container">
@@ -281,7 +281,7 @@
               <div class="slide-bg"><div class="inside"></div></div>
               <div class="container">
                 <div class="row slide-content">
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                     <!-- <div class="slide-num num">03</div> -->
                     <h1 class="slide-title font-teko wow fadeInRight" data-wow-duration="1.2s">Smart Ring: <span class="text-primary">  Wellness App</span><br /></h1>
                     <div class="slide-body wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.2s">
@@ -296,7 +296,7 @@
                       <a class="btn btn-primary btn-sm mt-4 d-sm-none d-block mb-3" href="https://zivaone.com/app.html">Download App <i class="icon ion-ios-download-outline"></i></a>
                     </div>
                   </div>
-                  <div class="col-sm-6 offset-sm-2">
+                  <div class="col-sm-6">
                     <!-- <img src="img/ziva-mobile-app-ring.png" class="img-fluid d-sm-block d-none"> -->
                     <img src="img/phone-ring.webp" class="img-fluid" alt="phone-ring">
                   </div>
@@ -331,7 +331,7 @@
                           <img src="img/bo1-icn.png" alt="wireless" class="img-fluid" width="48" />
                           </div>
                           
-                          <h4 class="fact-item-param slide-title-sub font-teko mb-0"> Monitoring the blood Oxygen level </h4>
+                          <h4 class="fact-item-param slide-title-sub font-teko mb-0"> Monitoring the Heart Rate and Blood Oxygen Level </h4>
                         </div>
                         <div class="col-sm-12 fact-item">
                           <div class="vlt-counter-up">
@@ -351,6 +351,7 @@
                   </div>
                   <div class="col-sm-6">
                     <img src="img/offer-img.png" class="img-fluid" alt="running">
+                    
                   </div>
                 </div>
                 
@@ -400,7 +401,7 @@
           anchors: ['Home', 'Ring-Features', 'App-Features', 'Mobile-App','Buy-Now'],
           navigation: false,
           afterLoad: function(anchorLink, index){
-            if(index == 1 || index == 4 || index == 5){ // Section with dark bacgkrounds
+            if(index == 1 || index == 2 || index == 3 || index == 4 || index == 5){ // Section with dark bacgkrounds
               $('body').addClass('dark-horizontal');
             }
             else{

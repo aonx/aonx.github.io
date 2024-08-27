@@ -37,11 +37,11 @@
 
   </head>
 
-  <body class="theme-orange light-horizontal">
+  <body class="theme-orange light-horizontal faq-dark">
     <div class="animsition">
       <div class="wrapper">
         <header id="header" class="header header-fixed">
-          <div class="container-fluid clearfix">
+          <div class="container-fluid clearfix text-light">
             <div class="brand">
               <a href="index.html#Home">
                 <div class="brand-name text-texture">
@@ -123,8 +123,8 @@
 
         <div class="home-horizontal a-horizontal full-height">
          
-          <div class="section pp-scrollable slide slide4 sticky-menu-bg-sec">
-            <div class="menu-bg-white">
+          <div class="section pp-scrollable slide slide4 sticky-menu-bg-sec slide-dark">
+            <div class="menu-bg-dark">
             </div>
             <div class="slide-container">
               <div class="container">
@@ -485,7 +485,7 @@
           anchors: ['Home', 'Ring-Features', 'Mobile-App', 'App-Features', 'Contact-Us'],
           navigation: false,
           afterLoad: function(anchorLink, index){
-            if(index == 1 || index == 3 || index == 5){ // Section with dark bacgkrounds
+            if(index == 1 || index == 2 || index == 3 || index == 4 || index == 5){ // Section with dark bacgkrounds
               $('body').addClass('dark-horizontal');
             }
             else{
