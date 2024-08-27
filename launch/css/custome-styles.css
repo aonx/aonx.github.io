@@ -79,6 +79,7 @@
 
 .sticky-menu-bg-sec .slide-container {
     padding-top: 60px;
+    min-height: auto;
 }
 .secondary-menu {
     color: #9a9a9a;
