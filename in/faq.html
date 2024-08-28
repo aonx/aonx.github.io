@@ -37,11 +37,11 @@
 
   </head>
 
-  <body class="theme-orange light-horizontal">
+  <body class="theme-orange light-horizontal faq-dark">
     <div class="animsition">
       <div class="wrapper">
         <header id="header" class="header header-fixed">
-          <div class="container-fluid clearfix">
+          <div class="container-fluid clearfix text-light">
             <div class="brand">
               <a href="index.html#Home">
                 <div class="brand-name text-texture">
@@ -62,7 +62,7 @@
 
             <div class="header-content d-block d-md-none">
               <div class="header-contacts text-right">
-                <a class="btn btn-primary btn-sm btn-rounded mt-0 mr-3" href="https://shop.zivaone.com/">Shop Now <i class="icon ion-ios-arrow-right"></i></a>
+                <a class="btn btn-primary btn-sm btn-rounded mt-0 mr-3" target="_blank" href="https://shop.zivaone.com/products/smart-ring">Buy Now <i class="icon ion-ios-arrow-right"></i></a>
               </div>
             </div>
 
@@ -72,7 +72,7 @@
                 <div class="header-contact-divider">/</div>
                 <div class="header-contact-item"><a href="mailto:hello@zivaone.com" class="mail-link">hello@zivaone.com</a></div>
                 <div class="header-contact-divider">/</div>
-                <a class="btn btn-primary btn-sm btn-rounded mt-0" href="https://shop.zivaone.com/">Shop Now <i class="icon ion-ios-arrow-right"></i></a>
+                <a class="btn btn-primary btn-sm btn-rounded mt-0" target="_blank" href="https://shop.zivaone.com/products/smart-ring">Buy Now <i class="icon ion-ios-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
                 <li><a href="index.html#App-Features" data-text="App Features">App Features</a></li>
                 <li><a href="faq.html" data-text="FAQs">FAQs</a></li>
                 <li><a href="downloads/ziva-user-manual.pdf" target="_blank" data-text="User Manual">User Manual</a></li>
-                <li><a href="index.html#Contacts" data-text="Contact">Contact</a></li>
+                <li><a href="contact-us.html" data-text="Contact Us">Contact Us</a></li>
               </ul>
             </div>
 
@@ -101,11 +101,11 @@
             <div class="menu-footer">
                 <ul class="social social-rounded">
                   <li><a href="https://www.instagram.com/zivaonering/" target="_blank"><i class="socicon-instagram"></i></a></li>
-                  <li><a href="https://www.facebook.com/profile.php?id=61562565912387" target="_blank"><i class="socicon-facebook"></i></a></li>
-                  <li><a href="https://x.com/zivaonering" target="_blank"><i class="socicon-twitter"></i></a></li>
-                  <li><a href="https://www.youtube.com/@zivaonering" target="_blank"><i class="socicon-youtube"></i></a></li>
+                  <li><a href="https://www.facebook.com/zivaonering/" target="_blank"><i class="socicon-facebook"></i></a></li>
+                  <!-- <li><a href="https://x.com/zivaonering" target="_blank"><i class="socicon-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/@zivaonering" target="_blank"><i class="socicon-youtube"></i></a></li> -->
                 </ul>
-              <div class="menu-copyright">&copy; 2024 <strong>ZivaOne</strong>. All Rights Reserved.</div>
+                <div class="menu-copyright">&copy; 2024 <strong class="text-capitalize">ZivaOne, Inc.</strong> All Rights Reserved.</div>
             </div>
           </div>
         </header>
@@ -113,9 +113,9 @@
 
         <ul class="social social-fixed">
           <li><a href="https://www.instagram.com/zivaonering/" target="_blank"><i class="socicon-instagram"></i></a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=61562565912387" target="_blank"><i class="socicon-facebook"></i></a></li>
-          <li><a href="https://x.com/zivaonering" target="_blank"><i class="socicon-twitter"></i></a></li>
-          <li><a href="https://www.youtube.com/@zivaonering" target="_blank"><i class="socicon-youtube"></i></a></li>
+          <li><a href="https://www.facebook.com/zivaonering/" target="_blank"><i class="socicon-facebook"></i></a></li>
+          <!-- <li><a href="https://x.com/zivaonering" target="_blank"><i class="socicon-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/@zivaonering" target="_blank"><i class="socicon-youtube"></i></a></li> -->
           
         </ul>
 
@@ -123,8 +123,8 @@
 
         <div class="home-horizontal a-horizontal full-height">
          
-          <div class="section pp-scrollable slide slide4 sticky-menu-bg-sec">
-            <div class="menu-bg-white">
+          <div class="section pp-scrollable slide slide4 sticky-menu-bg-sec slide-dark">
+            <div class="menu-bg-dark">
             </div>
             <div class="slide-container">
               <div class="container">
@@ -482,10 +482,10 @@
           direction: 'horizontal',
           loopTop: true,
           loopBottom: true,
-          anchors: ['Home', 'Ring-Features', 'Mobile-App', 'App-Features', 'Contacts'],
+          anchors: ['Home', 'Ring-Features', 'Mobile-App', 'App-Features', 'Contact-Us'],
           navigation: false,
           afterLoad: function(anchorLink, index){
-            if(index == 1 || index == 3 || index == 5){ // Section with dark bacgkrounds
+            if(index == 1 || index == 2 || index == 3 || index == 4 || index == 5){ // Section with dark bacgkrounds
               $('body').addClass('dark-horizontal');
             }
             else{
