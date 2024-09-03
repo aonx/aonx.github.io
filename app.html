@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,10 +9,55 @@
     <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
 </head>
 
-  <!-- Body -->
   <body>
     <p style="text-align: center;margin-top: 260px;">
     If you are not redirected automatically, follow this <a href="https://play.google.com/store/apps/details?id=com.zivaone.ring.app">link to the new path</a>.
   </p>
+  </body>
+</html> -->
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      function getMobileOS() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+          return "Windows Phone";
+        }
+
+        // Android detection 
+        if (/Android/i.test(userAgent)) {
+          return "Android";
+        }
+
+        // iOS detection 
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          return "iOS";
+        }
+        return false;
+      }
+
+      function DetectAndRedirect() {
+        if (getMobileOS() == "Android") {
+          window.location.href = "https://play.google.com/store/apps/details?id=com.zivaone.ring.app";
+        }
+        if (getMobileOS() == "iOS") {
+          window.location.href = "https://apps.apple.com/np/app/zivaring/id6645736077";
+        }
+        if (getMobileOS() == "Windows Phone") {
+          window.location.href = "https://www.microsoft.com/en-us/p/NameOfYourAPP";
+        }
+        if (!getMobileOS()) {
+          document.getElementById('not-mobile').innerHTML = "if not mobile show page with all links to store";
+        }
+      };
+    </script>
+  </head>
+  <body onload="DetectAndRedirect()">
+    <div id="not-mobile"></div>
   </body>
 </html>
