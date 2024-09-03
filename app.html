@@ -53,7 +53,7 @@
           document.getElementById('not-mobile').innerHTML = "The Ziva app is not available for Windows Phone. Please try it on an iOS or Android device.";
         }
         if (!getMobileOS()) {
-          document.getElementById('not-mobile').innerHTML = "if not mobile show page with all links to store";
+          document.getElementById('not-mobile').innerHTML = "Click on the buttons below to download the app";
         }
       };
     </script>
@@ -62,8 +62,14 @@
     <div id="not-mobile">
 
     </div>
+
     <div id="win-mobile">
-      sssss
+      <a href="https://apps.apple.com/np/app/zivaring/id6645736077" style="margin-right: 5px;width: 130px;display: block;float: left;">
+      <img src="images/appstore.png">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.zivaone.ring.app" style="width: 130px;display: block;float: left;">
+        <img src="images/playstore.png">
+      </a>
     </div>
   </body>
 </html>
