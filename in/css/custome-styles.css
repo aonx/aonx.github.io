@@ -125,11 +125,11 @@ hr {
     font-weight: normal;
     background: #000;
 }
-.faq-dark .stick {
+.innerpage-dark .stick {
     background: #FFFFFF;
 }
 
-.faq-dark .social a {
+.innerpage-dark .social-fixed.social a {
 color: #FFFFFF;
 }
 
