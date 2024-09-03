@@ -49,7 +49,8 @@
           window.location.href = "https://apps.apple.com/np/app/zivaring/id6645736077";
         }
         if (getMobileOS() == "Windows Phone") {
-          window.location.href = "https://www.microsoft.com/en-us/p/NameOfYourAPP";
+          // window.location.href = "https://www.microsoft.com/en-us/p/NameOfYourAPP";
+          document.getElementById('not-mobile').innerHTML = "The Ziva app is not available for Windows Phone. Please try it on an iOS or Android device.";
         }
         if (!getMobileOS()) {
           document.getElementById('not-mobile').innerHTML = "if not mobile show page with all links to store";
@@ -58,6 +59,11 @@
     </script>
   </head>
   <body onload="DetectAndRedirect()">
-    <div id="not-mobile"></div>
+    <div id="not-mobile">
+
+    </div>
+    <div id="win-mobile">
+      sssss
+    </div>
   </body>
 </html>
