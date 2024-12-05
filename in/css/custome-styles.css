@@ -51,7 +51,7 @@
     background: #0c0c0c;
     top: 0;
     left: 0;
-    z-index: 9;
+    z-index: 101;
 }
 
 .horizontal-dailyuse-item {
@@ -210,3 +210,8 @@ color: #FFFFFF;
     line-height: 30px;
     color: #fff;
 }
+
+ul.list-light li:before {
+    background: #FFFFFF;
+}
+
