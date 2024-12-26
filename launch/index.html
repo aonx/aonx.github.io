@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <title>ZivaOne - Provides top-quality products to improve the lives of health and wellness enthusiasts.</title>
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Theme switcher (color modes) -->
-    <script src="assets/js/theme-switcher.js"></script>
+    <!-- <script src="assets/js/theme-switcher.js"></script> -->
 
     <!-- Favicon and Touch Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -146,131 +146,20 @@
 
       <!-- Navbar -->
       <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
-      <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
+      <header class="header navbar navbar-expand-lg navbar-sticky">
         <div class="container px-3">
           <a href="index.html" class="navbar-brand pe-3">
-            <img src="assets/img/zivimg/ziva-iconic-logo.svg" width="47" alt="ZivaOne">
+            <img src="assets/img/zivimg/ziva-iconic-logo.svg" width="32" alt="ZivaOne">
             ZivaOne
           </a>
-          <div id="navbarNav" class="offcanvas offcanvas-end bg-dark">
-            <div class="offcanvas-header border-bottom border-light">
-              <h5 class="offcanvas-title text-white">Menu</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div id="navbarNav" class="offcanvas offcanvas-end">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Landings</a>
-                  <div class="dropdown-menu dropdown-menu-dark p-0">
-                    <div class="d-lg-flex">
-                      <div class="mega-dropdown-column d-flex justify-content-center align-items-center rounded-3 rounded-end-0 px-0" style="margin: -1px; background-color: #f3f6ff;">
-                        <img src="assets/img/landings.jpg" alt="Landings">
-                      </div>
-                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4" style="--si-mega-dropdown-column-width: 15rem;">
-                        <ul class="list-unstyled mb-0">
-                          <li><a href="index.html" class="dropdown-item">Template Intro Page</a></li>
-                          <li><a href="landing-mobile-app-showcase-v1.html" class="dropdown-item">Mobile App Showcase v.1</a></li>
-                          <li><a href="landing-mobile-app-showcase-v2.html" class="dropdown-item">Mobile App Showcase v.2</a></li>
-                          <li><a href="landing-mobile-app-showcase-v3.html" class="dropdown-item">Mobile App Showcase v.3<span class="badge bg-success ms-2">New</span></a></li>
-                          <li><a href="landing-product.html" class="dropdown-item d-flex align-items-center">Product Landing</a></li>
-                          <li><a href="landing-saas-v1.html" class="dropdown-item">SaaS v.1</a></li>
-                          <li><a href="landing-saas-v2.html" class="dropdown-item">SaaS v.2</a></li>
-                          <li><a href="landing-saas-v3.html" class="dropdown-item">SaaS v.3</a></li>
-                          <li><a href="landing-saas-v4.html" class="dropdown-item">SaaS v.4</a></li>
-                          <li><a href="landing-saas-v5.html" class="dropdown-item">SaaS v.5<span class="badge bg-success ms-2">New</span></a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
-                        <ul class="list-unstyled mb-0">
-                          <li><a href="landing-startup.html" class="dropdown-item d-flex align-items-center">Startup</a></li>
-                          <li><a href="landing-financial.html" class="dropdown-item">Financial Consulting</a></li>
-                          <li><a href="landing-online-courses.html" class="dropdown-item">Online Courses</a></li>
-                          <li><a href="landing-medical.html" class="dropdown-item">Medical</a></li>
-                          <li><a href="landing-software-dev-agency-v1.html" class="dropdown-item">Software Dev Agency v.1</a></li>
-                          <li><a href="landing-software-dev-agency-v2.html" class="dropdown-item">Software Dev Agency v.2</a></li>
-                          <li><a href="landing-software-dev-agency-v3.html" class="dropdown-item">Software Dev Agency v.3</a></li>
-                          <li><a href="landing-conference.html" class="dropdown-item">Conference</a></li>
-                          <li><a href="landing-digital-agency.html" class="dropdown-item">Digital Agency</a></li>
-                          <li><a href="landing-blog.html" class="dropdown-item">Blog Homepage</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                  <div class="dropdown-menu dropdown-menu-dark">
-                    <div class="d-lg-flex pt-lg-3">
-                      <div class="mega-dropdown-column">
-                        <h6 class="text-light px-3 mb-2">About</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="about-v1.html" class="dropdown-item py-1">About v.1</a></li>
-                          <li><a href="about-v2.html" class="dropdown-item py-1">About v.2</a></li>
-                          <li><a href="about-v3.html" class="dropdown-item py-1">About v.3</a></li>
-                        </ul>
-                        <h6 class="text-light px-3 mb-2">Blog</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="blog-list-with-sidebar.html" class="dropdown-item py-1">List View with Sidebar</a></li>
-                          <li><a href="blog-grid-with-sidebar.html" class="dropdown-item py-1">Grid View with Sidebar</a></li>
-                          <li><a href="blog-list-no-sidebar.html" class="dropdown-item py-1">List View no Sidebar</a></li>
-                          <li><a href="blog-grid-no-sidebar.html" class="dropdown-item py-1">Grid View no Sidebar</a></li>
-                          <li><a href="blog-simple-feed.html" class="dropdown-item py-1">Simple Feed</a></li>
-                          <li><a href="blog-single.html" class="dropdown-item py-1">Single Post</a></li>
-                          <li><a href="blog-podcast.html" class="dropdown-item py-1">Podcast</a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column">
-                        <h6 class="text-light px-3 mb-2">Portfolio</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="portfolio-grid.html" class="dropdown-item py-1">Grid View</a></li>
-                          <li><a href="portfolio-list.html" class="dropdown-item py-1">List View</a></li>
-                          <li><a href="portfolio-slider.html" class="dropdown-item py-1">Slider View</a></li>
-                          <li><a href="portfolio-courses.html" class="dropdown-item py-1">Courses</a></li>
-                          <li><a href="portfolio-single-project.html" class="dropdown-item py-1">Single Project</a></li>
-                          <li><a href="portfolio-single-course.html" class="dropdown-item py-1">Single Course</a></li>
-                        </ul>
-                        <h6 class="text-light px-3 mb-2">Services</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="services-v1.html" class="dropdown-item py-1">Services v.1</a></li>
-                          <li><a href="services-v2.html" class="dropdown-item py-1">Services v.2</a></li>
-                          <li><a href="services-single-v1.html" class="dropdown-item py-1">Service Details v.1</a></li>
-                          <li><a href="services-single-v2.html" class="dropdown-item py-1">Service Details v.2</a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column">
-                        <h6 class="text-light px-3 mb-2">Pricing</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="pricing.html" class="dropdown-item py-1">Pricing Page</a></li>
-                        </ul>
-                        <h6 class="text-light px-3 mb-2">Contacts</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="contacts-v1.html" class="dropdown-item py-1">Contacts v.1</a></li>
-                          <li><a href="contacts-v2.html" class="dropdown-item py-1">Contacts v.2</a></li>
-                          <li><a href="contacts-v3.html" class="dropdown-item py-1">Contacts v.3</a></li>
-                        </ul>
-                        <h6 class="text-light px-3 mb-2">Specialty</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="404-v1.html" class="dropdown-item py-1">404 Error v.1</a></li>
-                          <li><a href="404-v2.html" class="dropdown-item py-1">404 Error v.2</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a href="account-details.html" class="dropdown-item">Account Details</a></li>
-                    <li><a href="account-security.html" class="dropdown-item">Security</a></li>
-                    <li><a href="account-notifications.html" class="dropdown-item">Notifications</a></li>
-                    <li><a href="account-messages.html" class="dropdown-item">Messages</a></li>
-                    <li><a href="account-saved-items.html" class="dropdown-item">Saved Items</a></li>
-                    <li><a href="account-collections.html" class="dropdown-item">My Collections</a></li>
-                    <li><a href="account-payment.html" class="dropdown-item">Payment Details</a></li>
-                    <li><a href="account-signin.html" class="dropdown-item">Sign In</a></li>
-                    <li><a href="account-signup.html" class="dropdown-item">Sign Up</a></li>
-                  </ul>
-                </li> -->
+              <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
                 <li class="nav-item">
                   <a href="#" class="nav-link">Blogs</a>
                 </li>
@@ -283,26 +172,24 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">Contact Us</a>
                 </li>
-              </ul>
+              </ul> -->
             </div>
-            <div class="offcanvas-header border-top border-light">
+            <div class="offcanvas-header border-top">
               <a href="https://shop.zivaone.com/products/smart-ring" class="btn btn-primary w-100" target="_blank" rel="noopener">
                 <i class="bx bx-cart fs-4 lh-1 me-1"></i>
                 &nbsp;Buy now
               </a>
             </div>      
           </div>
-          <div class="pe-lg-1 ms-auto me-4" data-bs-theme="dark">
-            <div class="form-check form-switch mode-switch" data-bs-toggle="mode">
-              <input type="checkbox" class="form-check-input" id="theme-mode">
-              <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-              <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-            </div>
-          </div>
-          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
+            <input type="checkbox" class="form-check-input" id="theme-mode">
+            <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
+            <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
+          </div> -->
+          <!-- <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <a href="https://shop.zivaone.com/products/smart-ring" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+          </button> -->
+          <a href="https://shop.zivaone.com/products/smart-ring" class="btn btn-primary btn-sm fs-sm rounded d-lg-inline-flex" target="_blank" rel="noopener">
             <i class="bx bx-cart fs-5 lh-1 me-1"></i>
             &nbsp;Buy now
           </a>
@@ -310,216 +197,155 @@
       </header>
 
 
-      <!-- Hero section -->
-      <section class="min-vh-100 bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-5" style="background-image: url(assets/img/landing/product/hero/bg.jpg);" data-bs-theme="dark">
-        <div class="container pt-lg-3">
-          <div class="row flex-lg-nowrap">
-            <div class="col-lg-7 col-xl-6 col-xxl-5 text-center text-lg-start pt-4 pt-md-5 mt-xxl-4">
-              <p class="text-body lead pt-5 mt-sm-2 mt-lg-4 mt-xl-5">Elegant smart ring with  titanium exterior and medical-grade technology at the core.</p>
-              <h1 class="display-3 pb-md-2 mb-5">Simplify your path to wellness</h1>
-              <div class="mt-n4 ms-lg-n4 ms-n3 pb-sm-3 pb-md-4">
-                <a href="https://shop.zivaone.com/products/smart-ring" target="_blank" class="btn btn-lg btn-primary mt-lg-4 mt-3 ms-lg-4 ms-3">
-                    
-                  Buy Now
-                </a>
-                <!-- <a href="#" class="btn btn-lg btn-light mt-lg-4 mt-3 ms-lg-4 ms-3">
-                  Learn more
-                  <i class="bx bx-right-arrow-alt ms-1 lead"></i>
-                </a> -->
-              </div>
-              <div class="swiper-slider mx-auto mt-5 pt-xl-5 pt-lg-2 pt-xl-4" style="max-width: 33rem;">
-                <div class="swiper" data-swiper-options='{
-                  "slidesPerView": 1,
-                  "effect": "coverflow",
-                  "centeredSlides": true,
-                  "loop": true,
-                  "speed": 650,
-                  "coverflowEffect": {
-                    "rotate": 0,
-                    "stretch": 0,
-                    "depth": 560,
-                    "modifier": 1,
-                    "slideShadows": true
-                  },
-                  "autoplay": {
-                    "delay": 6000,
-                    "disableOnInteraction": false
-                  },
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "fraction"
-                  },
-                  "navigation": {
-                    "prevEl": ".btn-prev",
-                    "nextEl": ".btn-next"
-                  }
-                }'>
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="assets/img/zivimg/mini-slide1.png" width="434" alt="Slider image" class="d-block mx-auto rounded-3">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/zivimg/mini-slide2.png" width="434" alt="Slider image" class="d-block mx-auto rounded-3">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/zivimg/mini-slide3.png" width="434" alt="Slider image" class="d-block mx-auto rounded-3">
-                    </div>
-                  </div>
+       <!-- Hero -->
+       <section class="overflow-hidden pt-2 pt-md-4 py-lg-5">
+        <div class="container pt-1 pt-sm-0">
+          <div class="row align-items-center">
 
-                  <!-- Prev/Next buttons + count -->
-                  <div class="d-flex justify-content-center align-items-center pb-3 pt-4 mt-3">
-                    <button type="button" class="btn btn-prev btn-icon position-relative top-0 mt-0 ms-0 me-2" style="transform: none;" aria-label="Previous">
-                      <i class="bx bx-chevron-left"></i>
-                    </button>
-                    <div class="swiper-pagination text-light opacity-70 fs-sm fw-medium position-relative top-0 w-auto" style="min-width: 70px;"></div>
-                    <button type="button" class="btn btn-next btn-icon position-relative top-0 mt-0 ms-2 me-0" style="transform: none;" aria-label="Next">
-                      <i class="bx bx-chevron-right"></i>
-                    </button>
-                  </div>
+            <!-- Cursor parallax -->
+            <div class="col-md-7 order-md-2 mb-3 mb-sm-2 mb-md-0">
+              <div class="parallax" style="max-width: 746px;">
+                <div class="parallax-layer" data-depth="0.1">
+                  <img src="assets/img/zivimg/phone.png" alt="Phone">
+                </div>
+                <div class="parallax-layer" data-depth="0.2">
+                  <!-- <img src="assets/img/zivimg/scooters.png" alt="Scooters"> -->
+                  <img src="assets/img/zivimg/ring-anim.gif" alt="Scooters">
                 </div>
               </div>
             </div>
 
-            <!-- Featured image -->
-            <div class="d-none d-lg-block pt-5 mt-lg-4 mt-xl-5 ms-lg-n5 mx-xl-0">
-              <img src="assets/img/zivimg/hero3.png" class="d-block pt-xxl-4 mt-5" width="1058" alt="Hero image">
+            <!-- Text + button -->
+            <div class="col-md-5 order-md-1">
+              <a href="https://shop.zivaone.com/products/smart-ring" target="_blank" class="btn btn-lg btn-primary w-100 w-sm-auto d-block d-md-none mb-3">
+                Buy Now
+                <i class="bx bx-right-arrow-alt lead ms-2 me-n1"></i>
+              </a>
+
+              <h1 class="display-4 mb-ms-4">Simplify your path to wellness</h1>
+              <p class="fs-xl pb-2 mb-4 mb-xl-5" style="max-width: 450px;">Elegant smart ring with titanium exterior and medical-grade technology at the core.</p>
+            
+              <a href="https://shop.zivaone.com/products/smart-ring" target="_blank" class="btn btn-lg btn-primary w-100 w-sm-auto d-md-inline-flex d-none">
+                Buy Now
+                <i class="bx bx-right-arrow-alt lead ms-2 me-n1"></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
 
 
-      <!-- Text + Video -->
-      <!-- <section class="mb-5 pt-md-2 pt-lg-4 pt-xl-5">
-        <div class="container mt-4 pt-2">
-          <div class="row row-cols-md-2 row-cols-1 gy-4 mb-5">
-            <div class="col">
-              <h2 class="h1 mb-0">Shoot like a pro with our new easy to use <span class="text-primary">ProDrone 2.0</span></h2>
-            </div>
-            <div class="col">
-              <p class="mb-0 fs-lg">Featuring a 1-inch CMOS sensor that can shoot 4K/60fps videos and 20MP photos, ProDrone 2.0 grants filmmakers absolute creative freedom. It carefully optimizes user experience and intelligent features. </p>
-            </div>
-          </div>
-          <div class="position-relative rounded-3 overflow-hidden">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
-              <a href="https://www.youtube.com/watch?v=aOwTUgqUfH8" class="btn btn-video btn-icon btn-xl stretched-link bg-white" data-bs-toggle="video" aria-label="Play video">
-                <i class="bx bx-play"></i>
-              </a>
-            </div>
-            <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-40"></span>
-            <img src="assets/img/landing/product/video-cover.jpg" alt="Cover image">
-          </div>
-        </div>
-      </section> -->
-
-
+    
       <!-- Benefits -->
-      <section class="container mb-5 pt-md-2 pt-lg-4">
-        <h2 class="h1 my-4 pt-2 text-center">Wellness made smarter with top-tier tech</h2>
-        <div class="row pb-4">
-          <div class="col-md-3 col-6 order-md-1 order-2">
-            <div class="d-flex flex-column justify-content-between h-100 text-center">
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/sleep-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  Sleep monitor
-                </h3>
-              </div>
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/health-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  Health monitor
-                </h3>
-              </div>
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/stress-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  Stress monitor
-                 
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-12 order-md-2 order-1">
-            <div class="d-flex flex-column justify-content-between h-100">
-
-              <!-- Image -->
-              <div class="mx-md-n5 mb-md-n5">
-                <img src="assets/img/zivimg/ring-centre.png" alt="Image">
-              </div>
-
-              <!-- Items row -->
-              <div class="row row-cols-2 mt-md-5 mt-4 text-center">
-
+      <section class="bg-secondary">
+        <div class="container pt-md-2 py-lg-4">
+          <h2 class="h1 my-4 pt-2 text-center">Wellness made smarter with top-tier tech</h2>
+          <div class="row pb-4">
+            <div class="col-md-3 col-6 order-md-1 order-2">
+              <div class="d-flex flex-column justify-content-between h-100 text-center">
+  
                 <!-- Item -->
-                <div class="col">
-                  <img src="assets/img/zivimg/activity.svg" alt="Icon" class="d-inline-block mb-4">
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/sleep-icon.svg" alt="Icon" class="d-inline-block mb-4">
                   <h3 class="h4 mb-0 lh-1">
                     <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    Sleep monitor
+                  </h3>
+                </div>
+  
+                <!-- Item -->
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/health-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                  <h3 class="h4 mb-0 lh-1">
+                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    Health monitor
+                  </h3>
+                </div>
+  
+                <!-- Item -->
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/stress-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                  <h3 class="h4 mb-0 lh-1">
+                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    Stress monitor
                    
-                    Activity tracking
-                  </h3>
-                </div>
-
-                <!-- Item -->
-                <div class="col">
-                  <img src="assets/img/zivimg/water-proof-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                  <h3 class="h4 mb-0 lh-1">
-                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                    Water Proof
                   </h3>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 col-6 order-md-3 order-3">
-            <div class="d-flex flex-column justify-content-between h-100 text-center">
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/remote-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  Remote care <br> analytics
-                </h3>
+            <div class="col-md-6 col-12 order-md-2 order-1">
+              <div class="d-flex flex-column justify-content-between h-100">
+  
+                <!-- Image -->
+                <div class="mx-md-n5 mb-md-n5">
+                  <img src="assets/img/zivimg/ring-centre.png" alt="Image">
+                </div>
+  
+                <!-- Items row -->
+                <div class="row row-cols-2 mt-md-5 mt-4 text-center">
+  
+                  <!-- Item -->
+                  <div class="col">
+                    <img src="assets/img/zivimg/activity.svg" alt="Icon" class="d-inline-block mb-4">
+                    <h3 class="h4 mb-0 lh-1">
+                      <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                     
+                      Activity tracking
+                    </h3>
+                  </div>
+  
+                  <!-- Item -->
+                  <div class="col">
+                    <img src="assets/img/zivimg/water-proof-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                    <h3 class="h4 mb-0 lh-1">
+                      <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                      Water Proof
+                    </h3>
+                  </div>
+                </div>
               </div>
-
-              
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/comfort-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  Ergonomic comfort design
-                </h3>
-              </div>
-
-              <!-- Item -->
-              <div class="mt-md-5 mt-4">
-                <img src="assets/img/zivimg/battery-icon.svg" alt="Icon" class="d-inline-block mb-4">
-                <h3 class="h4 mb-0 lh-1">
-                  <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
-                  7 Days battery life
-                </h3>
+            </div>
+            <div class="col-md-3 col-6 order-md-3 order-3">
+              <div class="d-flex flex-column justify-content-between h-100 text-center">
+  
+                <!-- Item -->
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/remote-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                  <h3 class="h4 mb-0 lh-1">
+                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    Remote care <br> analytics
+                  </h3>
+                </div>
+  
+                
+  
+                <!-- Item -->
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/comfort-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                  <h3 class="h4 mb-0 lh-1">
+                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    Ergonomic comfort design
+                  </h3>
+                </div>
+  
+                <!-- Item -->
+                <div class="mt-md-5 mt-4">
+                  <img src="assets/img/zivimg/battery-icon.svg" alt="Icon" class="d-inline-block mb-4">
+                  <h3 class="h4 mb-0 lh-1">
+                    <!-- <span class="d-block mb-2 fs-base fw-normal">Lorem ipsum</span> -->
+                    7 Days battery life
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
         </div>
+       
       </section>
 
 
        <!-- Latest news (Carousel) -->
-       <section class="bg-secondary py-5">
+       <section class=" py-5">
         <div class="container py-2 py-md-4 py-lg-5">
           <h2 class="h1 text-center pb-4 mb-1 mb-lg-3">Tune into your body, and feel the rewards</h2>
           <div class="position-relative px-xl-5">
@@ -538,7 +364,7 @@
                 "slidesPerView": 1,
                 "loop": true,
                 "autoplay": {
-                  "delay": 10000,
+                  "delay": 5000,
                   "disableOnInteraction": false
                 },
                 "pagination": {
@@ -561,8 +387,8 @@
                 <div class="swiper-wrapper">
       
                   <!-- Item -->
-                  <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                  <div class="swiper-slide h-auto pb-3 ">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -589,7 +415,7 @@
                           <img src="assets/img/zivimg/avatar1.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">Emily T.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">Los Angeles</span>
                           </div>
                         </a>
                       </div>
@@ -598,7 +424,7 @@
 
                   <!-- Item -->
                   <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -625,7 +451,7 @@
                           <img src="assets/img/zivimg/avatar2.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">Rachel S.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">San Francisco</span>
                           </div>
                         </a>
                       </div>
@@ -634,7 +460,7 @@
       
                   <!-- Item -->
                   <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -661,7 +487,7 @@
                           <img src="assets/img/zivimg/avatar3.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">Sara T.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">Houston</span>
                           </div>
                         </a>
                       </div>
@@ -672,7 +498,7 @@
       
                   <!-- Item -->
                   <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -699,7 +525,7 @@
                           <img src="assets/img/zivimg/avatar4.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">Alex R.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">Dallas</span>
                           </div>
                         </a>
                       </div>
@@ -708,7 +534,7 @@
 
                   <!-- Item -->
                   <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -735,7 +561,7 @@
                           <img src="assets/img/zivimg/avatar5.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">Mark R.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">Philadelphia</span>
                           </div>
                         </a>
                       </div>
@@ -744,7 +570,7 @@
 
                   <!-- Item -->
                   <div class="swiper-slide h-auto pb-3">
-                    <article class="card h-100 border-0 shadow-sm mx-2">
+                    <article class="card h-100 border-0 shadow-sm mx-2 bg-secondary">
                      
                       <div class="card-body pb-4">
                         <div class="row">
@@ -771,7 +597,7 @@
                           <img src="assets/img/zivimg/avatar6.jpg" class="rounded-circle" width="48" alt="Avatar">
                           <div class="ps-3">
                             <h6 class="fs-base fw-semibold mb-0">John M.</h6>
-                            <span class="fs-sm text-muted">California</span>
+                            <span class="fs-sm text-muted">San Diego</span>
                           </div>
                         </a>
                       </div>
@@ -798,8 +624,8 @@
 
 
       <!-- Gallery (carousels) -->
-      <section class="mb-5 pt-md-3 pt-lg-4 pt-xl-5">
-        <h2 class="h1 pt-lg-2 pt-xl-3 mb-5 text-center">Customer shots gallery</h2>
+      <section class="mb-5 pt-md-3 pt-lg-4 py-xl-5 bg-secondary">
+        <h2 class="h1 pt-lg-2 pt-xl-3 mb-5 text-center">ZivaOne everyday ready</h2>
         <div class="pb-2 pb-sm-3 pb-md-4">
 
           <!-- LTR -->
@@ -951,14 +777,14 @@
           <div class="row align-items-center pb-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
             <div class="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
               <div class="position-relative rounded-3 overflow-hidden">
-                <div class="position-absolute top-0 start-0 w-100 h-100"></div>
+                <div class=" position-absolute top-0 start-0 w-100 h-100"></div>
                 <img src="assets/img/zivimg/spo2.png" class="d-block position-relative zindex-2 mx-auto" width="636" alt="Image">
               </div>
             </div>
             <div class="col-md-6 col-lg-5 offset-lg-1">
               <div class="ps-md-4 ps-lg-0">
-                <h3 class="h1 mb-lg-4">SpO2</h3>
-                <p class="fs-xl mb-0">Continuous blood oxygen monitoring</p>
+                <h3 class="h1 mb-lg-4">Blood Oxygen Monitoring</h3>
+                <p class="fs-xl mb-0">Track your blood oxygen levels to uncover stress patterns and take charge of your mental and physical balance.</p>
               </div>
             </div>
           </div>
@@ -1351,9 +1177,9 @@
             <div style="max-width: 26rem;">
               <h3 class="mb-4">Newsletter</h3>
               <p class="text-body mb-4 pb-2">Please, subscribe to our newsletter to keep updated about our news and offers.</p>
-              <form class="needs-validation" novalidate>
+              <form class="needs-validation" novalidate action="https://formspree.io/f/meooepwk" method="POST">
                 <div class="input-group">
-                  <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
+                  <input type="email" name="Email" class="form-control rounded-start ps-5" placeholder="Your email" required>
                   <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
                   <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
                   <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -1373,12 +1199,12 @@
                       San Ramon, CA 94583.
                     </a>
                   </li>
-                  <li class="mb-1">
+                  <!-- <li class="mb-1">
                     <a href="https://wa.me/+19252729352" target="_blank" class="nav-link align-items-start fw-normal px-0 py-1">
                       <i class="bx bx-phone-call fs-5 text-primary me-2"></i>
                       +1 925-272-9352
                     </a>
-                  </li>
+                  </li> -->
                   <li>
                     <a href="mailto:hello@zivaone.com" class="nav-link align-items-start fw-normal px-0 py-1">
                       <i class="bx bx-envelope fs-5 text-primary me-2"></i>
@@ -1387,20 +1213,36 @@
                   </li>
                 </ul>
               </div>
+
               <div class="mt-4 px-2">
-                <h3 class="mb-4 pb-lg-2">Payments accepted</h3>
-                <div class="mt-n3 ms-n3">
-                  <a href="#" class="mt-3 ms-3 d-inline-block">
-                    <img src="assets/img/landing/product/payments/visa.png" width="96" alt="Visa">
-                  </a>
-                  <a href="#" class="mt-3 ms-3 d-inline-block">
-                    <img src="assets/img/landing/product/payments/mastercard.png" width="96" alt="Visa">
-                  </a>
-                  <a href="#" class="mt-3 ms-3 d-inline-block">
-                    <img src="assets/img/landing/product/payments/paypal.png" width="96" alt="Visa">
-                  </a>
+                <h3 class="mb-4 pb-lg-2">Quick Links</h3>
+                <div class="mt-n2 d-flex">
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="find-my-ring-size.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Find my ring size</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Blogs</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link d-inline-block px-0 pt-1 pb-2">FAQs</a></li>
+                    
+                  </ul>
+                  <ul class="nav flex-column mb-2 mb-lg-0 ms-5 ps-lg-3">
+                    <li class="nav-item"><a href="terms.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="privacy-policy.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
+                  </ul>
                 </div>
               </div>
+
+              <!-- <div class="mt-4 px-2">
+                <h3 class="mb-4 pb-lg-2 opacity-10">Quick Links</h3>
+                <div class="mt-n2">
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div> -->
+
+             
+
+
             </div>
           </div>
         </div>
@@ -1426,6 +1268,33 @@
       </div>
     </footer>
 
+    <!-- Subscribe Modal Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get $10 Off Your First Order!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Subscribe to our newsletter and unlock a $10 discount on your first ZivaOne pre-order purchase. </p>
+            <p>Use code <strong class="text-light"> ZivaOne10 </strong> at checkout!</p>
+            <form class="tab-pane fade show active" autocomplete="off" id="signin">
+              <div class="mb-3">
+                <label class="form-label" for="email1">Email</label>
+                <input class="form-control" type="email" id="email1" placeholder="Enter your email">
+              </div>
+            
+              <button type="button" class="btn btn-primary d-block w-100" data-bs-dismiss="modal">Subscribe & Save $10</button>
+            </form>
+
+          </div>
+          
+        </div>
+      </div>
+    </div> -->
+
+
 
     <!-- Back to top button -->
     <a href="#top" class="btn-scroll-top" data-scroll>
@@ -1435,11 +1304,25 @@
 
 
     <!-- Vendor Scripts -->
+    
     <script src="assets/vendor/lightgallery/lightgallery.min.js"></script>
     <script src="assets/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
+    
 
     <!-- Main Theme Script -->
     <script src="assets/js/theme.min.js"></script>
+
+    <!-- Auto PopUP open after 7 seconds  -->
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {});
+          myModal.show();
+        }, 7000); // 7000 milliseconds = 7 seconds
+      });
+    </script> -->
+    
   </body>
 </html>
