@@ -517,7 +517,7 @@
           <h2 class="h1 mb-4">Transform Your Workplace with ZivaOne</h2>
           <p class="pb-3 mb-3 w-lg-75 mx-auto">Partner with ZivaOne to promote a healthier, more engaged workforce. Our smart ring is the perfect addition to your corporate wellness program, combining advanced technology with actionable insights to support your employees’ well-being.
           </p>
-          <a href="#" class="btn btn-primary shadow-primary btn-lg mb-1">Get started</a>
+          <a href="#" class="btn btn-primary shadow-primary btn-lg mb-1"  type="button" data-bs-toggle="modal" data-bs-target="#modalDefault">Get started</a>
         </div>
       </section>
       
@@ -576,6 +576,7 @@ Fremont, CA 94539
               <h3 class="mb-4 pb-lg-2">Quick Links</h3>
               <div class="mt-n2 d-flex">
                 <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item"><a href="for-business.html" class="nav-link d-inline-block px-0 pt-1 pb-2">For Business</a></li>
                   <li class="nav-item"><a href="find-my-ring-size.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Find my ring size</a></li>
                   <li class="nav-item"><a href="blog.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Blogs</a></li>
                   <li class="nav-item"><a href="faq.html" class="nav-link d-inline-block px-0 pt-1 pb-2">FAQs</a></li>
@@ -624,6 +625,42 @@ Fremont, CA 94539
       </div>
     </div>
   </footer>
+
+
+  <!-- Default modal-->
+  <div class="modal fade" id="modalDefault" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pt-0">
+          <h5 class="modal-title">Get Started</h5>
+          <p>Please fill out the form below, and our team will reach out to you within a business day.</p>
+          <form action="https://formspree.io/f/xbldqnvg" method="POST">
+            <div class="form-group mb-3">
+              <input type="text" class="form-control" name="Contact-name" placeholder="Full Name">
+              <div class="error-message"></div>
+            </div>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control" name="Company" placeholder="Company">
+              <div class="error-message"></div>
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control" name="Contact-email" placeholder="Business Mail">
+              <div class="error-message"></div>
+            </div>
+            
+        
+            <button type="submit" class="btn btn-block btn-primary btn-loading" data-loading-text="Sending">
+              <span>Submit</span>
+            </button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
 
     <!-- Back to top button -->
