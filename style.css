@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 .logo img {
-    width: 60px;
+    width: 120px;
 }
 a, button {
 transition: 0.3s all ease-out;
