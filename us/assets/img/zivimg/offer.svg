@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 393 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-49.2501,-51.4911)">
+        <g id="XMLID_6_">
+            <g id="XMLID_5_">
+                <rect id="XMLID_46_" x="57.259" y="59.532" width="382.667" height="75.569" style="fill:rgb(31,211,133);"/>
+                <path id="XMLID_99_" d="M439.926,59.532L439.926,135.101L364.366,135.101L364.366,75.14L379.965,59.532L439.926,59.532Z" style="fill:rgb(131,95,241);fill-rule:nonzero;"/>
+                <rect id="XMLID_106_" x="54.275" y="56.516" width="382.667" height="75.569" style="fill:none;stroke:white;stroke-width:1px;"/>
+            </g>
+            <g id="XMLID_86_" transform="matrix(1,0,0,1,373.502,106.124)">
+                <g transform="matrix(1.08632,0,0,1.08632,-0.165738,2.03029)">
+                    <text x="0px" y="0px" style="font-family:'Manrope-Medium', 'Manrope';font-weight:500;font-size:32px;fill:white;">10</text>
+                </g>
+                <g transform="matrix(1,0,0,1,36.032,1)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24.978px;fill:white;">%</text>
+                </g>
+            </g>
+            <g id="XMLID_92_" transform="matrix(0.838231,0,0,0.838231,77.2201,106.942)">
+                <text x="0px" y="0px" style="font-family:'Manrope-Medium', 'Manrope';font-weight:500;font-size:36.896px;fill:white;">Limit<tspan x="83.754px " y="0px ">e</tspan>d-<tspan x="140.242px " y="0px ">T</tspan>im<tspan x="203.297px " y="0px ">e</tspan> O<tspan x="283.822px " y="0px ">e</tspan>r</text>
+            </g>
+            <g id="XMLID_92_1" serif:id="XMLID_92_" transform="matrix(0.284234,0,0,0.284234,288.751,122.856)">
+                <text x="0px" y="0px" style="font-family:'Manrope-Medium', 'Manrope';font-weight:500;font-size:36.896px;fill:rgb(29,29,29);">En<tspan x="43.334px " y="0px ">d</tspan>s T<tspan x="111.629px " y="0px ">o</tspan>da<tspan x="175.588px " y="0px ">y</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,389.351,75.4771)">
+                <g id="XMLID_87_">
+                    <text x="0px" y="0px" style="font-family:'Manrope-Regular', 'Manrope';font-size:12px;fill:white;">FLA<tspan x="19.05px " y="0px ">T</tspan></text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,393.641,123)">
+                <g id="XMLID_36_">
+                    <text x="0px" y="0px" style="font-family:'Manrope-Medium', 'Manrope';font-weight:500;font-size:14px;fill:white;">o</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
