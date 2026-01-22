@@ -1,3 +1,53 @@
 .cursor-text {
     cursor: text !important;
 }
+
+/* Video Slider */
+.ugc-sec .swiper-slide {
+    padding: 30px;
+}
+
+.swiper,
+.swiper-slide {
+  height: auto;
+}
+
+.ratio-9x16 {
+  min-height: 300px;
+  aspect-ratio: 9 / 16;
+}
+
+.ugc-video {
+    width: 95%;
+}
+
+/* Video container */
+.ugc-video video {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Center Play Button */
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* Optional hover */
+.play-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

@@ -136,7 +136,8 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
           transform: rotate(360deg);
         }
       }
-      
+
+
     </style>
 
     <!-- Page loading scripts -->
@@ -582,7 +583,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
   </section>
 
    <!-- Gallery (carousels) -->
-      <section class="mb-5 pt-md-3 pt-lg-4 py-xl-5 bg-secondary">
+      <section class="mb-0 pt-md-3 pt-lg-4 py-xl-5 bg-secondary">
         <h2 class="h1 pt-lg-2 pt-xl-3 mb-5 text-center">ZivaOne everyday ready</h2>
         <div class="pb-2 pb-sm-3 pb-md-4">
 
@@ -796,8 +797,114 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
         </div>
       </section>
 
+
+      <!-- Video Testimonials -->
+
+      <section class="py-5 bg-secondary ugc-sec">
+        <div class="container">
+          <h2 class="h1 text-center">Voices of ZivaOne Users</h2>
+           <div class="row py-2 py-md-4 py-lg-5">
+             <div class="col-md-12 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+              <div class="position-relative px-xl-5">
+
+  <!-- Slider prev/next buttons -->
+  <button type="button" id="prev-news" class="btn btn-prev btn-icon btn-sm position-absolute top-50 start-0 translate-middle-y d-none d-xl-inline-flex" aria-label="Previous">
+    <i class="bx bx-chevron-left"></i>
+  </button>
+  <button type="button" id="next-news" class="btn btn-next btn-icon btn-sm position-absolute top-50 end-0 translate-middle-y d-none d-xl-inline-flex" aria-label="Next">
+    <i class="bx bx-chevron-right"></i>
+  </button>
+
+  <!-- Slider -->
+  <div class="px-xl-2">
+    <div class="swiper mx-n2" data-swiper-options='{
+      "slidesPerView": 1,
+      "loop": true,
+      "pagination": {
+        "el": ".swiper-pagination",
+        "clickable": true
+      },
+      "navigation": {
+        "prevEl": "#prev-news",
+        "nextEl": "#next-news"
+      },
+      "breakpoints": {
+        "500": {
+          "slidesPerView": 2
+        },
+        "1000": {
+          "slidesPerView": 3
+        }
+      }
+    }'>
+      <div class="swiper-wrapper">
+
+        <!-- Item -->
+        <div class="swiper-slide h-auto pb-3">
+          <div class="ugc-video position-relative shadow rounded overflow-hidden">
+            <div class="ratio ratio-9x16">
+              <video class="ugcVideo w-100 h-100" preload="metadata">
+                <source src="assets/img/zivimg/UGC1.mp4" type="video/mp4">
+              </video>
+
+              <!-- Custom Play Button -->
+              <button class="play-btn" aria-label="Play video">
+                ▶
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="swiper-slide h-auto pb-3">
+          <div class="ugc-video position-relative shadow rounded overflow-hidden">
+            <div class="ratio ratio-9x16">
+              <video class="ugcVideo w-100 h-100" preload="metadata">
+                <source src="assets/img/zivimg/UGC2.mp4" type="video/mp4">
+              </video>
+
+              <!-- Custom Play Button -->
+              <button class="play-btn" aria-label="Play video">
+                ▶
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="swiper-slide h-auto pb-3">
+          <div class="ugc-video position-relative shadow rounded overflow-hidden">
+            <div class="ratio ratio-9x16">
+              <video class="ugcVideo w-100 h-100" preload="metadata">
+                <source src="assets/img/zivimg/UGC3.mp4" type="video/mp4">
+              </video>
+
+              <!-- Custom Play Button -->
+              <button class="play-btn" aria-label="Play video">
+                ▶
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination (bullets) -->
+      <div class="swiper-pagination position-relative bottom-0 mt-4 mb-lg-2"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
           <!-- Comparison -->
-      <section class="py-5 mb-lg-2 bg-secondary">
+      <section class="py-5 mb-lg-2">
         <div class="container">
            <div class="row py-2 py-md-4 py-lg-5">
           <div class="col-md-12 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
@@ -818,10 +925,6 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                     <th scope="row" class="h5">
                       Smartwatch
                     </th>
-                    <th scope="row" class="h5">
-                      Medical Pendant
-                    </th>
-                   
                   </tr>
                   <tr>
                     <th scope="row" class="h5">
@@ -838,11 +941,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                         ❌ Bulky
                       </span>
                     </td>
-                    <td class="">
-                      <span class="d-inline-block my-4 py-1">
-                        ❌ Awkward
-                      </span>
-                    </td>
+                    
                   </tr>
                   <tr>
                     <th scope="row" class="h5">
@@ -859,11 +958,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                         <span class="text-success fs-xl">✔</span>
                       </span> Limited metrics
                     </td>
-                    <td class="">
-                      <span class="d-inline-block my-4 py-1">
-                        ❌
-                      </span> Only basic
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -881,11 +976,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                         ❌ Monthly fee
                       </span>
                     </td>
-                    <td class="">
-                      <span class="d-inline-block my-4 py-1">
-                        ❌ Monthly fee
-                      </span>
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -903,11 +994,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                         ❌ Techy
                       </span>
                     </td>
-                    <td class="">
-                      <span class="d-inline-block my-4 py-1">
-                        ❌ Plain
-                      </span>
-                    </td>
+                    
                   </tr>
 
                   <tr>
@@ -917,7 +1004,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                     
                     <td class="">
                       <span class="d-inline-block my-4 py-1">
-                        <span class="text-success fs-xl">✔</span> Zero learning needed
+                        <span class="text-success fs-xl">✔</span> Simple
                       </span>
                     </td>
                     <td class="">
@@ -925,11 +1012,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
                         ❌ Complex
                       </span>
                     </td>
-                    <td class="">
-                      <span class="d-inline-block my-4 py-1">
-                        <span class="text-success fs-xl">✔</span> Simple
-                      </span>
-                    </td>
+                    
                   </tr>
 
                  
@@ -944,7 +1027,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
 
 
        <!-- Colors -->
-      <section class="mb-0 pb-5 pt-4 ">
+      <section class="mb-0 pb-5 pt-4 bg-secondary">
         <div class="container my-xl-5 my-lg-4 pb-2 py-sm-3 py-md-4">
           <div class="row my-2">
             <div class="col-xl-4 col-lg-5">
@@ -1008,7 +1091,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
 
 
           <!-- FAQ -->
-      <section class="py-5 bg-secondary">
+      <section class="py-5">
         <div class="container">
            <div class="row py-2 py-md-4 py-lg-5">
           <div class="col-md-12 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
@@ -1085,7 +1168,7 @@ src="https://www.facebook.com/tr?id=1752468455299566&ev=PageView&noscript=1"
         </div>
       </section> -->
 
-      <section class="pt-3 pb-4 pb-md-5 bg-secondary" style="">
+      <section class="pt-3 pb-4 pb-md-5" style="">
          <div class="container">
            <div class="card border-0 bg-gradient-primary">
             <div class="card-body p-md-5 p-4 bg-size-cover" style="background-image: url(assets/img/landing/digital-agency/contact-bg.png);">
@@ -1281,6 +1364,37 @@ Fremont, CA 94539
         }, 7000); // 7000 milliseconds = 7 seconds
       });
     </script> -->
+
+<script>
+document.querySelectorAll('.ugc-video').forEach(card => {
+  const video = card.querySelector('video');
+  const button = card.querySelector('.play-btn');
+
+  function pauseAllVideos() {
+    document.querySelectorAll('.ugc-video video').forEach(v => {
+      v.pause();
+      const btn = v.closest('.ugc-video').querySelector('.play-btn');
+      btn.innerHTML = '▶';
+    });
+  }
+
+  button.addEventListener('click', () => {
+    if (video.paused) {
+      pauseAllVideos();
+      video.muted = false;
+      video.play();
+      button.innerHTML = '❚❚';
+    } else {
+      video.pause();
+      button.innerHTML = '▶';
+    }
+  });
+
+  video.addEventListener('ended', () => {
+    button.innerHTML = '▶';
+  });
+});
+</script>
 
 
     <!-- Google tag (gtag.js) -->
