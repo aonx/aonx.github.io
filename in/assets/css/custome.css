@@ -1,3 +1,6 @@
 .cursor-text {
     cursor: text !important;
 }
+.partner-types .card {
+    height: 100%;
+}
